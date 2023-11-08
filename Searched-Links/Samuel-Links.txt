@@ -8,3 +8,17 @@ https://www.sciencedirect.com/topics/computer-science/linked-data
 https://developers.exlibrisgroup.com/blog/exploring-linked-data-property-graphs/
 ESTE LINK A CONTINUACIÓN ES BASTANTE IMPORTANTE, ES UN TFM:
 https://openaccess.uoc.edu/bitstream/10609/59725/6/cbrewerTFM0117memoria.pdf
+
+
+DESCRIPCIÓN BASTANTE ACERTADA SEGÚN EDGE:
+“Linked Data” o “Datos Enlazados” es un método de publicación de datos estructurados para que puedan ser interconectados y más útiles1. Este concepto se refiere a construir una web de datos, donde la información tenga un nivel de representación suficiente que permita la construcción de relaciones y enlaces, los cuales facilitan la navegación entre conjuntos de datos provenientes de diferentes fuentes, inclusive de diferentes proveedores2.
+
+El “Linked Data” no es más que un conjunto de buenas prácticas para publicar y conectar datos estructurados en la web. Se articula a través de un conjunto de tecnologías estándar del W3C2:
+
+Las URIs, un mecanismo genérico para identificar entidades y conceptos, que funcionan de forma análoga a los nombres propios en el lenguaje natural2.
+El protocolo HTTP, un mecanismo simple y universal que permite recuperar al recurso que identifica una URI2.
+Modelo de datos RDF. Esta tecnología, piedra angular del stack tecnológico de la web semántica, es un framework para la descripción de recursos (entidades y objetos en la web) que se apoya en los mecanismos de nombrado y acceso que mencionados anteriormente (URIs y HTTP respectivamente)2.
+El propósito original para el que fue diseñado RDF es el intercambio de datos. RDF no nació con el objetivo de sustituir ninguna tecnología, sino de complementar y proporcionar valor añadido a las ya existentes permitiendo elevar el nivel de representación de los datos publicados en la web y facilitando la comunicación entre sistemas y agentes2.
+
+Es importante aclarar que “Open Data” y “Linked Data” no son sinónimos: el concepto de “Linked Data” hace referencia a que los datos están enlazados mediante tecnologías de Web Semántica, en particular RDF (Resource Description Framework), que es el estándar que utiliza para describir los recursos web, especificar metadatos y representar información3. El término “Linked Data” no implica que los datos deban ser gratuitos, de utilización libre o abiertos como postula "Open Data"3.
+
