@@ -1,0 +1,71 @@
+1. Introducción:
+
+    Tim Berners Lee y el origen de la web de datos.
+    Web semántica como evolución hacia la representación estructurada de la información.
+    Iniciativa de Linked Data como paradigma para construir una web de datos interconectados.
+
+2. Componentes del Linked Data:
+
+    URIs:
+        Mecanismo genérico para identificar entidades y conceptos.
+        Funcionamiento similar a nombres propios en el lenguaje natural.
+        Globales y únicos en la web.
+
+    Protocolo HTTP:
+        Mecanismo para recuperar el recurso identificado por una URI.
+        Permite acceder a la descripción del recurso a través de otras URIs.
+
+    Modelo de datos RDF:
+        Framework para describir recursos en la web.
+        Basado en URIs y HTTP.
+        Sintaxis para expresar tripletas: sujeto - verbo/relación/enlace - objeto.
+        Permite describir recursos de manera sencilla y natural.
+
+3. Propósito y Principios de RDF:
+
+    Diseñado para el intercambio de datos.
+    Complementa y agrega valor a tecnologías existentes.
+    No requiere esquemas o vocabularios, facilitando la integración de conjuntos de datos heterogéneos.
+
+4. Principios de Linked Data según Tim Berners-Lee:
+
+    Uso de URIs para identificar recursos en la web.
+    Aprovechamiento de HTTP para localizar y consultar recursos.
+    Proporcionar información útil al desreferenciar URIs.
+    Inclusión de enlaces a otras URIs relacionadas para potenciar el descubrimiento de información.
+
+5. Proyecto Linking Open Data:
+
+    Desarrollado por el grupo de la W3C.
+    Objetivo de ampliar la web con una base de datos común.
+    Publicación en la web de bases de datos en RDF y establecimiento de enlaces RDF entre datos de diferentes fuentes.
+
+6. Linked Open Data (LOD):
+
+    Definición y relación con Open Data.
+    Importancia de enlazar datos para su accesibilidad y reutilización.
+    Transformación hacia una Web Semántica con múltiples bases de datos distribuidas y enlazables.
+
+8. Linked Open Data + Open Data = Linked Open Data (LOD):
+
+    Definición de LOD y su relación con Linked Data y Open Data.
+    Importancia de la interconexión de datos para el descubrimiento de conocimiento.
+
+9. Beneficios de Linked (Open) Data:
+
+    Rompimiento de silos de información y facilitación de integración de datos.
+    Potenciación de modelos de datos flexibles.
+    Mejora de la eficiencia en la integración y navegación de datos complejos.
+    Beneficios sociales, como la libertad de acceso, impulso al conocimiento, transparencia y colaboración.
+
+10. Linked Data en Bibliotecas:
+
+    Exploración del uso de Linked Data en bibliotecas.
+    Aplicación en la exportación e importación de representaciones de datos.
+    Utilización de grafos para modelar conexiones entre objetos.
+
+
+12. Conclusión:
+
+    Recapitulación de los beneficios y principios de Linked Data.
+    Importancia de la interconexión de datos para la creación de una web semántica.
