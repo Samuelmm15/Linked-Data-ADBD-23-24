@@ -346,5 +346,7 @@ INPUT /usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ./Linked-Data-Group-8.toc
 INPUT ./Linked-Data-Group-8.toc
 OUTPUT Linked-Data-Group-8.toc
+INPUT /Users/smartin/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
+INPUT /Users/smartin/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmmonolt10-bold.luc
 INPUT ./Linked-Data-Group-8.aux
 INPUT ./Linked-Data-Group-8.out
