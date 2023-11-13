@@ -1,6 +1,6 @@
 # Fdb version 3
-["lualatex"] 1699900399 "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" "Linked-Data-Group-8.pdf" "Linked-Data-Group-8" 1699900399
-  "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" 1699900398 3440 400b39a55ccd3c8934e9352ff643bc3f ""
+["lualatex"] 1699907979 "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" "Linked-Data-Group-8.pdf" "Linked-Data-Group-8" 1699907980
+  "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" 1699907979 7388 05cb55a9442965e94647011d38ccd27d ""
   "/Users/smartin/Library/Fonts/Geist-Regular.otf" 1698082286 55900 39ff0c17d6190ca5849a40e0153e54de ""
   "/Users/smartin/Library/Fonts/Geist-SemiBold.otf" 1698082286 57760 42e8b5cbe846f987eaeb77c626da6846 ""
   "/Users/smartin/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/geist-regular.luc" 1699460911 100131 4b916eac521228f71b9fa441ce3aba4b ""
@@ -16,9 +16,11 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf" 1255129361 63012 5db69ad3c177ae338e5504d80d9e9eb6 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf" 1255129361 66332 e158e5948a4e2a2229c56cc4d9753f48 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
@@ -198,10 +200,10 @@
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1647637340 13565 30cc2d8cecf79afb1abb4d5c12eb919a ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1677759653 4558587 1e543e01a18de00d8d81bfdc0ab21f5a ""
-  "Linked-Data-Group-8.aux" 1699900399 3344 ff3983617e053ee08b0d73df3fb35ff4 "lualatex"
-  "Linked-Data-Group-8.out" 1699900399 2491 4d014fc820cec6dfe7ab35aaded75557 "lualatex"
-  "Linked-Data-Group-8.tex" 1699900398 3440 400b39a55ccd3c8934e9352ff643bc3f ""
-  "Linked-Data-Group-8.toc" 1699900399 1099 f0b755a2c854200f4fec39c50b0b268c "lualatex"
+  "Linked-Data-Group-8.aux" 1699907980 3721 071beaa59aa89943551eb9ec9b8f76a0 "lualatex"
+  "Linked-Data-Group-8.out" 1699907980 2704 ef7cc565da29a6475ef959d8cce33dd9 "lualatex"
+  "Linked-Data-Group-8.tex" 1699907979 7388 05cb55a9442965e94647011d38ccd27d ""
+  "Linked-Data-Group-8.toc" 1699907980 1242 0266bc78cf525a9259b6833adabe03f4 "lualatex"
   (generated)
   "Linked-Data-Group-8.aux"
   "Linked-Data-Group-8.log"

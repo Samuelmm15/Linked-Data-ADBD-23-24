@@ -22,6 +22,13 @@
     bottom=2cm,
 }
 
+% Redefinir el formato del capítulo
+\titleformat{\chapter}[block]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{1em}{\Huge}
+
+% Ajustar el espaciado antes y después del título del capítulo
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
 % Configuración de los títulos de las secciones
 \titlespacing{\section}{0pt}{\parskip}{\parskip}
 \titlespacing{\subsection}{0pt}{\parskip}{\parskip}
@@ -43,7 +50,7 @@
 	
 	% Secciones del informe
 	\chapter{Introducción}
-	
+
   En la última década, la web ha experimentado una transformación fundamental desde una simple red de información hacia lo que hoy se conoce como \textbf{Linked Data} o \textbf{datos enlazados}. Este cambio, impulsado por la evolución de la web semántica, ha llevado a la adopción de un paradigma que va más allá de la  presentación de información en forma de texto. Linked Data propone una visión donde los datos adquieren una estructura que facilita la creación de conexiones y enlaces entre diversos conjuntos de datos, provenientes incluso de fuentes y proveedores distintos.
 
 De manera general, Linked Data representa un conjunto de prácticas sólidas para la publicación y conexión de datos estructurados en la web. Haciendo uso de tecnologías del W3C, como \textbf{URIs}, el \textbf{protocolo HTTP} y el modelo de datos \textbf{RDF} o \texttt{\textbf{Resource Description Framework}}, se establece una base que permite la identificación única de entidades, la recuperación de recursos y la descripción detallada de los mismos.
@@ -51,9 +58,31 @@ De manera general, Linked Data representa un conjunto de prácticas sólidas par
 En el presente informe se tiene como objetivo explorar los fundamentos de Linked Data, desde sus principios esenciales hasta su aplicación práctica. En esencia este se centrará en cómo las URIs, el protocolo HTTP y el modelo RDF forman parte de la revolución semántica, permitiendo la interconexión de datos. Además, se examinará el impacto del Linked Open Data (LOD) y cómo este enfoque híbrido entre \texttt{datos enlazados} y \texttt{datos abiertos} está transformando la forma en la que se accede, se utiliza y se comparte la información en un mundo cada vez más interconectado.
 	 
 	\chapter{Componentes del Linked Data}
-	Example....
-	
-	
+
+	Para comenzar con el estudio de Linked Data, es necesario entender los componentes que lo conforman. En este sentido, se puede decir que Linked Data se basa en tres pilares fundamentales: URIs, HTTP y RDF. A continuación, se describirá cada uno de estos componentes y se explicará su importancia en el contexto de Linked Data.
+
+- URI (Identificadores de recursos uniformes): Una URI es una cadena de caracteres que identifica de manera única un recurso en la web. En este perspectiva, se puede decir que una URI es un identificador de recursos uniforme, ya que, permite la identificación de los distintos recursos en la web de una manera uniforme y consistente. Además, las URIs son utilizadas por los agentes de software para acceder a los recursos de esta. La uniformidad en el contexto de las URIs hace referencia a los siguiente aspectos:
+
+\indent \indent \indent -  \textbf{Unicidad}: Cada recurso debe tener una URI única. La unicidad garantiza que no haya conflictos ni duplicados en la identificación de los recursos. Cada URI debería de ser única en el ámbito global de la web.
+
+\indent \indent \indent -  \textbf{Consistencia}: Las URIS deben de seguir un formato consistente y estandarizado. Esto permite la facilidad de comprensión y manejo por parte tanto de las máquinas como de las personas. Además, permite el establecimiento de patrones y la simplificación de su uso.
+
+\indent \indent \indent -  \textbf{Persistencia}: Las URIs deben de ser persistentes. Esto quiere decir que una URI debe de ser válida y accesible en todo momento. De esta manera, se garantiza que los recursos puedan ser accedidos en el momento que se considere.
+
+\indent \indent \indent -  \textbf{Desreferenciable}: Las URIs deben de ser desreferenciables. Es decir, el acceder a una URI mediante el protocolo \texttt{HTTP} se debe de obtener información sobre el recurso al que hace referencia la URI. Esto permite que las URIs no solo se traten de identificadores únicos, sino 	que también sean enlaces a información relevante.
+
+- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta.
+
+- RDF (Marco de Descripción de Recursos): RDF es un modelo estándar para describir recursos y sus relaciones haciendo uso de tripletes (sujeto, predicado, objeto).
+
+- Enlaces entre recursos: Las URIs deben de incluir enlances (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
+
+Estos componentes permiten que los datos estén interconectados, facilitando por un lado la navegación y el descubrimiento de información relacionada. Por tanto, cuando se siguen estos principios, se puede decir que los datos están enlazados (\textbf{Linked Data}), siendo estos datos fundamentales para la construcción de la web semántica, dónde, la información tiene un significado definido y las máquinas pueden entender y procesar los datos de manera efectiva.
+
+\fbox{\parbox{\textwidth}{
+    \textbf{Nota:} AÑADIR UNA IMAGEN QUE MUESTRE LOS COMPONENTES DE LINKED DATA DE MANERA ESQUEMÁTICA
+}}
+
 	\chapter{Propósitos y principios de RDF}
   Example....	
 
@@ -87,4 +116,9 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 	\chapter{Linked Data en la actualidad}
 	Example....
 
+	\chapter{Conclusiones}
+	Example....
+
+	\chapter{Bibliografía}
+	Example....
 	\end{document}
