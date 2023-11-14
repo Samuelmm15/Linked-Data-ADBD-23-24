@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.2)  13 NOV 2023 20:39
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.2)  14 NOV 2023 10:38
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex
@@ -664,91 +664,111 @@ LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
 
 ]
 Chapter 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 84.
-
-Overfull \hbox (23.79999pt too wide) in paragraph at lines 84--85
-[][] 
- []
-
 [3
 
 ]
+<../img/Componentes-Linked-Data.png, id=105, 753.81625pt x 664.4825pt>
+File: ../img/Componentes-Linked-Data.png Graphic file (type png)
+<use ../img/Componentes-Linked-Data.png>
+Package luatex.def Info: ../img/Componentes-Linked-Data.png  used on input line 108.
+(luatex.def)             Requested size: 376.90721pt x 332.24043pt.
+ [4] [5<../img/Componentes-Linked-Data.png>]
 Chapter 3.
-[4
-
-]
-Chapter 4.
-[5
-
-]
-Chapter 5.
 [6
 
 ]
-Chapter 6.
+Chapter 4.
 [7
+
+]
+Chapter 5.
+[8
+
+]
+Chapter 6.
+[9
 
 ]
 Chapter 7.
 
-Overfull \hbox (20.25206pt too wide) in paragraph at lines 98--98
+Overfull \hbox (20.25206pt too wide) in paragraph at lines 125--125
 |\TU/Geist(0)/b/n/20.74 Chap-ter 7 \TU/Geist(0)/b/n/24.88 Relación en-tre Linked Data y Open
  []
 
-[8
-
-]
-Chapter 8.
-[9
-
-]
-Chapter 9.
 [10
 
 ]
-Chapter 10.
+Chapter 8.
 [11
 
 ]
-Chapter 11.
+Chapter 9.
 [12
 
 ]
-Chapter 12.
+Chapter 10.
 [13
 
 ]
-Chapter 13.
+Chapter 11.
 [14
 
 ]
-Chapter 14.
+Chapter 12.
 [15
 
 ]
-Chapter 15.
+Chapter 13.
 [16
+
+]
+Chapter 14.
+[17
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 150.
+
+Underfull \hbox (badness 1735) in paragraph at lines 151--152
+[]\TU/Geist(0)/m/n/10.95 12Car-ac-terís-ti-cas. 2023. HTTP (Car-ac-terís-ti-cas, con-cepto y fun-ciones). 12Car-ac-terís-ti-cas.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[]\TU/Geist(0)/m/n/10.95 Open-Data Eu-skadi. 2023. RDF (Re-source De-scrip-tion Frame-work). Open-Data. []$\TU/lmtt/m/n/10.95 https:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\TU/lmtt/m/n/10.95 //opendata.euskadi.eus/contenidos/informacion/opendata_rdf_euskadi/es_info/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[]\TU/Geist(0)/m/n/10.95 AR-IT-MET-ICS. 2023. Qué es W3C. AR-IT-MET-ICS. []$\TU/lmtt/m/n/10.95 https://www.arimetrics.com/
+ []
+
+[18
 
 ] (./Linked-Data-Group-8.aux)
 Package rerunfilecheck Info: File `Linked-Data-Group-8.out' has not changed.
-(rerunfilecheck)             Checksum: EF7CC565DA29A6475EF959D8CCE33DD9;2704.
+(rerunfilecheck)             Checksum: ACB312D5193567A7DAFFD7AD7DA8227C;2596.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22458 strings out of 477785
+ 22492 strings out of 477785
  100000,953878 words of node,token memory allocated
- 433 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 52 glue_spec, 5 attribute_list, 2 write nodes
-   avail lists: 2:267,3:191,4:21,5:2430,6:47,7:7702,8:33,9:188,10:7,11:616
- 42322 multiletter control sequences out of 65536+600000
+ 463 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 52 glue_spec, 8 attribute_list, 2 write, 3 pdf_action nodes
+   avail lists: 2:247,3:179,4:28,5:2705,6:41,7:8692,8:106,9:188,10:8,11:715
+ 42342 multiletter control sequences out of 65536+600000
  47 fonts using 3633367 bytes
- 105i,6n,115p,713b,346s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,7n,115p,733b,368s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></Users/smartin/Library/Fonts/Geist-SemiBold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></Users/smartin/Library/Fonts/Geist-Regular.otf>
-Output written on Linked-Data-Group-8.pdf (17 pages, 36184 bytes).
+Output written on Linked-Data-Group-8.pdf (19 pages, 152382 bytes).
 
-PDF statistics: 197 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 131072)
- 136 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 224 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 131072)
+ 128 words of extra memory for PDF output out of 10000 (max. 100000000)
 

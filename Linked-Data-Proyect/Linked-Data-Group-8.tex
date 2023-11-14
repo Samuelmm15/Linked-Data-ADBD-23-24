@@ -71,17 +71,44 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 \indent \indent \indent -  \textbf{Desreferenciable}: Las URIs deben de ser desreferenciables. Es decir, el acceder a una URI mediante el protocolo \texttt{HTTP} se debe de obtener información sobre el recurso al que hace referencia la URI. Esto permite que las URIs no solo se traten de identificadores únicos, sino 	que también sean enlaces a información relevante.
 
-- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta.
+- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta. En cuanto a las características del protocolo, se pueden encontrar las siguientes a continuación:
+
+\indent \indent \indent - \textbf{Cliente-Servidor}: El protocolo HTTP se basa en un modelo cliente-servidor. Esto quiere decir que, el cliente realiza una petición al servidor y este le responde con la información solicitada. En este sentido, el cliente es el agente de software que realiza la petición y el servidor es el agente de software que responde a la petición.
+
+\indent \indent \indent - \textbf{Sin estado}: El protocolo HTTP es un protocolo sin estado. Es decir, cada petición que se realiza al servidor es independiente de las demás. Por tanto, el servidor no guarda información sobre las peticiones anteriores. Esto permite que el protocolo sea simple y fácil de implementar.
+
+\indent \indent \indent - \textbf{Protocolo de aplicación}: Se trata de un protocolo de nivel de aplicación utilizado para la transferencia de información en la WWW (\texttt{World Wide Web}). De manera general, opera en la capa de aplicación del modelo OSI (\texttt{Open Systems Interconnection}) \cite{1}. 
+
+\indent \indent \indent - \textbf{Mensajes}: Las comunicaciones se realizan mediante mensajes. Un solicitud de un cliente y una respuesta del servidor consisten en un encabezado y de manera opcional en un cuerpo. El encabezado contiene la información sobre dicha solicitud o respuesta y el cuerpo contiene la infomación que se quiere transmitir.
+
+\indent \indent \indent - \textbf{URis}: Las distintas solicitudes y respuestas en HTTP hacen uso de identificadores de recursos uniformes para identificar los distintos recursos en la web. Esto lo que permite, es especificar la ubicación y el nombre del recurso.
+
+\indent \indent \indent - \textbf{Basado en texto}: Las distintas solicitudes y respuestas se codifican en texto.  Esto lo que permite es que se facilita la comprensión y el procesamiento de las solicitudes y respuestas tanto por parte de los humanos como de las propias máquinas.
+
+\indent \indent \indent - \textbf{Métodos}: El protocolo define una serie de métodos que se utilizan para poder indicar la acción que el cliente quiere realizar. Algunos de los métodos más comunes son GET, POST, PUT, DELETE, etc.
 
 - RDF (Marco de Descripción de Recursos): RDF es un modelo estándar para describir recursos y sus relaciones haciendo uso de tripletes (sujeto, predicado, objeto).
+
+\indent \indent \indent - \textbf{Reutilización}: RDF hace uso de URIs para identificar los recursos, permitiendo la facilidad en la reutilización de la información RDF en diferentes aplicaciones.
+
+\indent \indent \indent - \textbf{Interoperabilidad}: Este está estandarizado por el W3C \cite{5}, lo que permite que diferentes aplicaciones RDF puedan trabajar juntas más fácilmente.
+
+\indent \indent \indent - \textbf{Extensibilidad}: RDF permite la extensión de vocabularios RDF existentes, lo que permite la creación de vocabularios RDF más específicos.
+
+\indent \indent \indent - \textbf{Escalabilidad}: Se puede hacer más grande según sea necesario (escalable),  permitiendo que se pueda usar para representar grandes cantidades de información o datos.
 
 - Enlaces entre recursos: Las URIs deben de incluir enlances (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
 
 Estos componentes permiten que los datos estén interconectados, facilitando por un lado la navegación y el descubrimiento de información relacionada. Por tanto, cuando se siguen estos principios, se puede decir que los datos están enlazados (\textbf{Linked Data}), siendo estos datos fundamentales para la construcción de la web semántica, dónde, la información tiene un significado definido y las máquinas pueden entender y procesar los datos de manera efectiva.
 
-\fbox{\parbox{\textwidth}{
-    \textbf{Nota:} AÑADIR UNA IMAGEN QUE MUESTRE LOS COMPONENTES DE LINKED DATA DE MANERA ESQUEMÁTICA
-}}
+Teniendo en cuenta todo esto anterior, se puede observar a continuación una esquema de todo lo comentado anteriormente, de tal manera que los conceptos básicos puedan ser comprendidos de manera más sencilla \ref{fig:Componentes-Linked-Data}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{../img/Componentes-Linked-Data.png}
+	\caption{Esquema de los principales componentes de Linked Data..}
+	\label{fig:Componentes-Linked-Data}
+\end{figure}
 
 	\chapter{Propósitos y principios de RDF}
   Example....	
@@ -119,6 +146,12 @@ Estos componentes permiten que los datos estén interconectados, facilitando por
 	\chapter{Conclusiones}
 	Example....
 
-	\chapter{Bibliografía}
-	Example....
+	\begin{thebibliography}{99}
+	\bibitem{1} CloudFlare. 2023.  ¿Qué es el modelo OSI?.  CloudFlare.  \url{https://www.cloudflare.com/es-es/learning/ddos/glossary/open-systems-interconnection-model-osi/}
+	\bibitem{2} 12Características. 2023. HTTP (Características, concepto y funciones). 12Características. \url{https://www.12caracteristicas.com/http/}
+	\bibitem{3} REDTECA. 2023. Protocolo HTTP. REDTECA. \url{https://redteca.com/hostings/http}
+	\bibitem{4}OpenData Euskadi. 2023. RDF (Resource Description Framework). OpenData. \url{https://opendata.euskadi.eus/contenidos/informacion/opendata_rdf_euskadi/es_info/adjuntos/RDF.pdf}
+	\bibitem{5} ARITMETICS. 2023. Qué es W3C. ARITMETICS. \url{https://www.arimetrics.com/glosario-digital/w3c}
+	\end{thebibliography}
+
 	\end{document}

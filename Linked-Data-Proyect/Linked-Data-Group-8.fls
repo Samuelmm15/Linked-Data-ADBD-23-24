@@ -348,6 +348,9 @@ INPUT ./Linked-Data-Group-8.toc
 OUTPUT Linked-Data-Group-8.toc
 INPUT /Users/smartin/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT /Users/smartin/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmmonolt10-bold.luc
+INPUT ../img/Componentes-Linked-Data.png
+INPUT ../img/Componentes-Linked-Data.png
+INPUT ../img/Componentes-Linked-Data.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm

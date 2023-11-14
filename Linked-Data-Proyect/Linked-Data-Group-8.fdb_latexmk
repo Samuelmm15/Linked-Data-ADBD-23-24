@@ -1,6 +1,7 @@
 # Fdb version 3
-["lualatex"] 1699907979 "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" "Linked-Data-Group-8.pdf" "Linked-Data-Group-8" 1699907980
-  "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" 1699907979 7388 05cb55a9442965e94647011d38ccd27d ""
+["lualatex"] 1699958299 "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" "Linked-Data-Group-8.pdf" "Linked-Data-Group-8" 1699958300
+  "../img/Componentes-Linked-Data.png" 1699957656 213864 86281707d1c21274f763c338673bbfa2 ""
+  "/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex" 1699958299 11462 4c52d035a51abcf1fdf4731bb0c8cd5a ""
   "/Users/smartin/Library/Fonts/Geist-Regular.otf" 1698082286 55900 39ff0c17d6190ca5849a40e0153e54de ""
   "/Users/smartin/Library/Fonts/Geist-SemiBold.otf" 1698082286 57760 42e8b5cbe846f987eaeb77c626da6846 ""
   "/Users/smartin/Library/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/geist-regular.luc" 1699460911 100131 4b916eac521228f71b9fa441ce3aba4b ""
@@ -200,10 +201,10 @@
   "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1647637340 13565 30cc2d8cecf79afb1abb4d5c12eb919a ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1677759653 4558587 1e543e01a18de00d8d81bfdc0ab21f5a ""
-  "Linked-Data-Group-8.aux" 1699907980 3721 071beaa59aa89943551eb9ec9b8f76a0 "lualatex"
-  "Linked-Data-Group-8.out" 1699907980 2704 ef7cc565da29a6475ef959d8cce33dd9 "lualatex"
-  "Linked-Data-Group-8.tex" 1699907979 7388 05cb55a9442965e94647011d38ccd27d ""
-  "Linked-Data-Group-8.toc" 1699907980 1242 0266bc78cf525a9259b6833adabe03f4 "lualatex"
+  "Linked-Data-Group-8.aux" 1699958300 4015 a72d7d416c37dbd5f9ac0db781c824e6 "lualatex"
+  "Linked-Data-Group-8.out" 1699958300 2596 acb312d5193567a7daffd7ad7da8227c "lualatex"
+  "Linked-Data-Group-8.tex" 1699958299 11462 4c52d035a51abcf1fdf4731bb0c8cd5a ""
+  "Linked-Data-Group-8.toc" 1699958300 1172 d494458abe97e04112f577ed02a52adb "lualatex"
   (generated)
   "Linked-Data-Group-8.aux"
   "Linked-Data-Group-8.log"
