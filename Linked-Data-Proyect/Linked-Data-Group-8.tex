@@ -8,6 +8,7 @@
 \usepackage{titlesec}
 \usepackage{geometry}
 \usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
 \usepackage{fontspec}
 
 % Configuración de la fuente usada
@@ -105,16 +106,94 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{../img/Componentes-Linked-Data.png}
+	\includegraphics[scale=0.6]{../img/Componentes-Linked-Data.png}
 	\caption{Esquema de los principales componentes de Linked Data..}
 	\label{fig:Componentes-Linked-Data}
 \end{figure}
 
-	\chapter{Propósitos y principios de RDF}
-  Example....	
+	\chapter{RDF de manera básica}
+  Como se ha comentado de manera previa, \texttt{RDF} es un \textbf{modelo} que permite representar propiedades y valores de propiedades. Este, se basa en principios que se encuentran establecidos haciendo uso de varios tipos de representación de datos. Por otro lado, se puede hablar de las \textbf{propiedades RDF}, estas, se asemejan a los atributos y de manera general se corresponden con los pares de atributo-valor. Por último, se puede hablar de los \textbf{recursos RDF}, estos, se asemejan a los objetos en cuanto a aspectos de la terminología del diseño orientado a objetos, por tanto, los \texttt{recursos} son los objectos y las \texttt{propiedades} son los objetos específicos y variables de una categoría.
+
+	En cuanto al modelo de datos básico de \textbf{RDF} se basa en los siguientes tres tipos de objetos:
+
+	- \textbf{Recursos}: Los recursos se tratan de los objetos que se quieren describir, es decir, se enfocan como todos los elementos que son descritos por expresiones RDF. Es decir, por ejemplo, un recurso puede se una página web completa, una parte de una página web, una colección completa de páginas, etc. Para finalizar, los recursos se deben de designar siempre por URIs más etiquetas de identificación de destino.
+
+	- \textbf{Propiedades}: Las propiedades se tratan de los atributos que se quieren describir, es decir, se trata de un aspecto específico, característica, atributo o relación utilizado para describir un recurso. Por ejemplo, una propiedad puede ser el título de una página web, el autor de una página web, la fecha de creación de una página web, etc.  Cada propiedad tiene un significado en específico, define los valores permitidos, los tipos de recursos que puede describir y las relaciones con otras propiedades.
+
+	- \textbf{Setencias}: Las sentencias se tratan de una expresión que relaciona un recurso con una propiedad y un valor. Las tres partes individuales de una sentencia se denominan como \textbf{sujeto (\texttt{recurso}), predicado (\texttt{propiedad}) y objeto (\texttt{valor de la propiedad o literal})}, es decir, los denominados \textbf{tripletes}. El objeto de una sentencia puede ser otro recurso o un valor literal, a su vez un recurso puede ser especificado por un URI o una cadena simple de caracteres que se denominan como \textbf{literales}, además, dicho recurso puede ser a su vez datos primitivos definidos por \textbf{XML} (Lenguaje de marcado extensible) \cite{6}. 
+
+Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de setencia RDF:
+
+\begin{verbatim}
+	http://www.example.es/index.html tiene una desarrolladora cuyo valor es Andrea López.
+\end{verbatim}
+
+\begin{quote}
+	\textbf{Sujeto}: http://www.example.es/index.html
+
+	\textbf{Predicado}: "desarrollador"
+
+	\textbf{Objeto}: Andrea López 
+\end{quote}	
+
+	Tras esto, se puede observar el diagrama de nodo y arco simple que representa el ejemplo adjunto anteriormente:
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.7]{../img/Diagrama-Nodo-Arco.png}
+		\caption{Diagrama de nodo y arco simple que representa el ejemplo de setencia RDF.}
+		\label{fig:Diagrama-Nodo-Arco}
+	\end{figure}
+
+	\fbox{\parbox{\textwidth}{
+    \textbf{Nota:} La dirección de la flecja del arco simple es muy importante. El arco siempre debe de empezar en el sujeto y apunta hacia el objeto de la sentencia RDF. De manera general se puede usar la siguiente sentencia:
+
+		\textbf{<Sujeto> TIENE <Predicado> <Objeto>}
+}}
+
+A partir del ejemplo comprendido de manera previa, se pueden especificar algunas características más para dicho ejemplo como:
+
+\begin{verbatim}
+	El indiviudo cuyo nombre es Andrea López, correo electrónico <andre@example.es>, 
+	es la desarrolladores de la página web <http://www.example.es/index.html>.
+\end{verbatim}
+
+Teniendo esto en cuenta, la intención del ejemplo se basa en darle valor a la propiedad \textbf{desarrolladora} mediante una entidad estructurada. Por tanto, se puede observar a continuación el diagrama de nodo y arco simple que representa el ejemplo adjunto anteriormente:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{../img/Propiedad-Estructurada.png}
+	\caption{Diagrama de nodo y arco simple que representa el ejemplo de setencia RDF.}
+	\label{fig:Diagrama-Nodo-Arco-2}
+\end{figure}
+
+\fbox{\parbox{\textwidth}{
+	\textbf{Nota:} Se puede leer el diagrama anterior como http://www.example.es/index.html tiene la desarrolladora cualquiera y este cualquiera tiene el nombre Andrea López y el correo electrónico andre@example.es .
+}}
+
+Para finalizar, se puede implementar como ejemplo el uso de múltiples frases o sentecias RDF, por tanto, se tiene el siguiente ejemplo para ello:
+
+\begin{verbatim}
+	El individuo al que se refiere el identificador de empleado id 15151 se llama Andrea López y 
+	tiene la dirección de correo electrónico <andre@example.es>. Este individuo creó el 
+	recurso <http://www.example.es/index.html> y es la desarrolladora de este recurso.
+\end{verbatim}
+
+Con esto en mente, se implementad el siguiente \textbf{modelo RDF}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{../img/Modelo-RDF.png}
+	\caption{Modelo RDF que representa el ejemplo de múltiples sentencias RDF.}
+	\label{fig:Modelo-RDF}
+\end{figure}
+
+	\chapter{RDF y XML}
+	SAMUEL
+	\url{https://arxiu-web.upf.edu/hipertextnet/numero-1/rdf.html#2.2}
 
 	\chapter{Principios de Linked Data según Tim Berners-Lee}
-	Example....
+	SAMUEL
 
 	\chapter{Proyecto Linking Open Data}
 	Example....
@@ -152,6 +231,9 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 	\bibitem{3} REDTECA. 2023. Protocolo HTTP. REDTECA. \url{https://redteca.com/hostings/http}
 	\bibitem{4}OpenData Euskadi. 2023. RDF (Resource Description Framework). OpenData. \url{https://opendata.euskadi.eus/contenidos/informacion/opendata_rdf_euskadi/es_info/adjuntos/RDF.pdf}
 	\bibitem{5} ARITMETICS. 2023. Qué es W3C. ARITMETICS. \url{https://www.arimetrics.com/glosario-digital/w3c}
+	\bibitem{6} AWS. 2023. ¿Qué es XML?. Amazon. \url{https://aws.amazon.com/es/what-is/xml/}
+	\bibitem{7}.  Eva Méndez. 2001. Resource Description Framework(RDF)	Especificación del Modelo y la Sintaxis. SIDAR. \url{http://www.sidar.org/recur/desdi/traduc/es/rdf/rdfesp.htm#basic}
+	\bibitem{8} María Jesús Lamarca Lapuente. 2018. Hipertexto, el nuevo concepto de documento en la cultura de la imagen. Hipertexto. \url{http://www.hipertexto.info/documentos/rdf.htm}
 	\end{thebibliography}
 
 	\end{document}

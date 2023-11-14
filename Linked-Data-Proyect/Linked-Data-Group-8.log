@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.2)  14 NOV 2023 10:38
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2023.3.2)  14 NOV 2023 18:11
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/smartin/Desktop/Linked-Data-Proyect/Linked-Data-Proyect/Linked-Data-Group-8.tex
@@ -421,11 +421,16 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip51
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2022-02-24 L3 programming layer (loader) 
  (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count289
+\l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box62
 ))
 Package: xparse 2022-01-12 L3 Experimental document command parser
@@ -433,17 +438,17 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count290
-\l__fontspec_language_int=\count291
-\l__fontspec_strnum_int=\count292
-\l__fontspec_tmp_int=\count293
-\l__fontspec_tmpa_int=\count294
-\l__fontspec_tmpb_int=\count295
-\l__fontspec_tmpc_int=\count296
-\l__fontspec_em_int=\count297
-\l__fontspec_emdef_int=\count298
-\l__fontspec_strong_int=\count299
-\l__fontspec_strongdef_int=\count300
+\l__fontspec_script_int=\count291
+\l__fontspec_language_int=\count292
+\l__fontspec_strnum_int=\count293
+\l__fontspec_tmp_int=\count294
+\l__fontspec_tmpa_int=\count295
+\l__fontspec_tmpb_int=\count296
+\l__fontspec_tmpc_int=\count297
+\l__fontspec_em_int=\count298
+\l__fontspec_emdef_int=\count299
+\l__fontspec_strong_int=\count300
+\l__fontspec_strongdef_int=\count301
 \l__fontspec_tmpa_dim=\dimen274
 \l__fontspec_tmpb_dim=\dimen275
 \l__fontspec_tmpc_dim=\dimen276
@@ -478,42 +483,42 @@ Package fontspec Info: Font family 'Geist(0)' created for font 'Geist' with
  (./Linked-Data-Group-8.aux)
 \openout1 = Linked-Data-Group-8.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 39.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
+\scratchcounter=\count302
 \scratchdimen=\dimen277
 \scratchbox=\box63
-\nofMPsegments=\count302
-\nofMParguments=\count303
+\nofMPsegments=\count303
+\nofMParguments=\count304
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count304
+\MPscratchCnt=\count305
 \MPscratchDim=\dimen278
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
 \everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -566,7 +571,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 38.
+Package hyperref Info: Link coloring OFF on input line 39.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -574,11 +579,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count307
+\c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 38.
-LaTeX Info: Redefining \pageref on input line 38.
-LaTeX Info: Redefining \nameref on input line 38.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
  (./Linked-Data-Group-8.out) (./Linked-Data-Group-8.out)
 \@outlinefile=\write4
 
@@ -589,63 +594,63 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 38.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 38.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 38.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 38.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 38.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 38.
-LaTeX Font Info:    Redeclaring math accent \check on input line 38.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 38.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 38.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 38.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 38.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 38.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 39.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 39.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 39.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 39.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 39.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 39.
+LaTeX Font Info:    Redeclaring math accent \check on input line 39.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 39.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 39.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 39.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 39.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 38.
+(Font)              `operators' in the math version `normal' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Geist(0)/m/n on input line 38.
+(Font)                  OT1/cmr/m/n --> TU/Geist(0)/m/n on input line 39.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 38.
+(Font)              `operators' in the math version `bold' on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Geist(0)/m/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> TU/Geist(0)/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Geist(0)/m/n --> TU/Geist(0)/m/n on input line 38.
+(Font)                  TU/Geist(0)/m/n --> TU/Geist(0)/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Geist(0)/m/it on input line 38.
+(Font)                  OT1/cmr/m/it --> TU/Geist(0)/m/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Geist(0)/b/n on input line 38.
+(Font)                  OT1/cmr/bx/n --> TU/Geist(0)/b/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 38.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 39.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Geist(0)/m/n --> TU/Geist(0)/b/n on input line 38.
+(Font)                  TU/Geist(0)/m/n --> TU/Geist(0)/b/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Geist(0)/b/it on input line 38.
+(Font)                  OT1/cmr/bx/it --> TU/Geist(0)/b/it on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 38.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 39.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 38.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 47.
+(Font)              <12> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 47.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 47.
+(Font)              <6> on input line 48.
  [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Linked-Data-Group-8.toc)
@@ -659,7 +664,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 56.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 57.
 [2
 
 ]
@@ -667,108 +672,146 @@ Chapter 2.
 [3
 
 ]
-<../img/Componentes-Linked-Data.png, id=105, 753.81625pt x 664.4825pt>
+Overfull \hbox (3.52066pt too wide) in paragraph at lines 97--98
+[][][]\TU/Geist(0)/m/n/10.95 - \TU/Geist(0)/b/n/10.95 Ex-ten-si-bil-i-dad\TU/Geist(0)/m/n/10.95 : RDF per-mite la ex-ten-sión de vo-cab-u-lar-ios RDF ex-is-tentes, lo que per-mite la creación
+ []
+
+<../img/Componentes-Linked-Data.png, id=108, 753.81625pt x 664.4825pt>
 File: ../img/Componentes-Linked-Data.png Graphic file (type png)
 <use ../img/Componentes-Linked-Data.png>
-Package luatex.def Info: ../img/Componentes-Linked-Data.png  used on input line 108.
-(luatex.def)             Requested size: 376.90721pt x 332.24043pt.
- [4] [5<../img/Componentes-Linked-Data.png>]
+Package luatex.def Info: ../img/Componentes-Linked-Data.png  used on input line 109.
+(luatex.def)             Requested size: 452.29324pt x 398.69257pt.
+[4] [5<../img/Componentes-Linked-Data.png>]
 Chapter 3.
+<../img/Diagrama-Nodo-Arco.png, id=123, 512.91624pt x 81.30376pt>
+File: ../img/Diagrama-Nodo-Arco.png Graphic file (type png)
+<use ../img/Diagrama-Nodo-Arco.png>
+Package luatex.def Info: ../img/Diagrama-Nodo-Arco.png  used on input line 143.
+(luatex.def)             Requested size: 359.03893pt x 56.91223pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 152.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 152--153
+[][] 
+ []
+
 [6
 
-]
+<../img/Diagrama-Nodo-Arco.png>]
+<../img/Propiedad-Estructurada.png, id=132, 422.57875pt x 362.35374pt>
+File: ../img/Propiedad-Estructurada.png Graphic file (type png)
+<use ../img/Propiedad-Estructurada.png>
+Package luatex.def Info: ../img/Propiedad-Estructurada.png  used on input line 165.
+(luatex.def)             Requested size: 295.8031pt x 253.64589pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 172--173
+[][] 
+ []
+
+
+Overfull \hbox (28.4009pt too wide) in paragraph at lines 180--180
+[]\TU/lmtt/m/n/10.95 El individuo al que se refiere el identificador de empleado id 15151 se llama Andrea López y[] 
+ []
+
+<../img/Modelo-RDF.png, id=133, 422.57875pt x 362.35374pt>
+File: ../img/Modelo-RDF.png Graphic file (type png)
+<use ../img/Modelo-RDF.png>
+Package luatex.def Info: ../img/Modelo-RDF.png  used on input line 186.
+(luatex.def)             Requested size: 295.8031pt x 253.64589pt.
+[7<../img/Propiedad-Estructurada.png>] [8<../img/Modelo-RDF.png>]
 Chapter 4.
-[7
-
-]
-Chapter 5.
-[8
-
-]
-Chapter 6.
 [9
 
 ]
-Chapter 7.
-
-Overfull \hbox (20.25206pt too wide) in paragraph at lines 125--125
-|\TU/Geist(0)/b/n/20.74 Chap-ter 7 \TU/Geist(0)/b/n/24.88 Relación en-tre Linked Data y Open
- []
-
+Chapter 5.
 [10
 
 ]
-Chapter 8.
+Chapter 6.
 [11
 
 ]
-Chapter 9.
+Chapter 7.
 [12
 
 ]
-Chapter 10.
+Chapter 8.
+
+Overfull \hbox (22.0357pt too wide) in paragraph at lines 204--204
+|\TU/Geist(0)/b/n/20.74 Chap-ter 8 \TU/Geist(0)/b/n/24.88 Relación en-tre Linked Data y Open
+ []
+
 [13
 
 ]
-Chapter 11.
+Chapter 9.
 [14
 
 ]
-Chapter 12.
+Chapter 10.
 [15
 
 ]
-Chapter 13.
+Chapter 11.
 [16
 
 ]
-Chapter 14.
+Chapter 12.
 [17
 
 ]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 150.
+Chapter 13.
+[18
 
-Underfull \hbox (badness 1735) in paragraph at lines 151--152
+]
+Chapter 14.
+[19
+
+]
+Chapter 15.
+[20
+
+]
+Underfull \hbox (badness 1735) in paragraph at lines 230--231
 []\TU/Geist(0)/m/n/10.95 12Car-ac-terís-ti-cas. 2023. HTTP (Car-ac-terís-ti-cas, con-cepto y fun-ciones). 12Car-ac-terís-ti-cas.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 []\TU/Geist(0)/m/n/10.95 Open-Data Eu-skadi. 2023. RDF (Re-source De-scrip-tion Frame-work). Open-Data. []$\TU/lmtt/m/n/10.95 https:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 \TU/lmtt/m/n/10.95 //opendata.euskadi.eus/contenidos/informacion/opendata_rdf_euskadi/es_info/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 []\TU/Geist(0)/m/n/10.95 AR-IT-MET-ICS. 2023. Qué es W3C. AR-IT-MET-ICS. []$\TU/lmtt/m/n/10.95 https://www.arimetrics.com/
  []
 
-[18
+[21
 
 ] (./Linked-Data-Group-8.aux)
 Package rerunfilecheck Info: File `Linked-Data-Group-8.out' has not changed.
-(rerunfilecheck)             Checksum: ACB312D5193567A7DAFFD7AD7DA8227C;2596.
+(rerunfilecheck)             Checksum: E919750EA9171BEBDF53F54045A11BDB;2639.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22492 strings out of 477785
- 100000,953878 words of node,token memory allocated
+ 22916 strings out of 477785
+ 125086,953878 words of node,token memory allocated
  463 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 52 glue_spec, 8 attribute_list, 2 write, 3 pdf_action nodes
-   avail lists: 2:247,3:179,4:28,5:2705,6:41,7:8692,8:106,9:188,10:8,11:715
- 42342 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:311,3:247,4:40,5:2362,6:44,7:7552,8:106,9:240,10:13,11:607
+ 42720 multiletter control sequences out of 65536+600000
  47 fonts using 3633367 bytes
- 105i,7n,115p,733b,368s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,7n,115p,1270b,366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></Users/smartin/Library/Fonts/Geist-SemiBold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></Users/smartin/Library/Fonts/Geist-Regular.otf>
-Output written on Linked-Data-Group-8.pdf (19 pages, 152382 bytes).
+Output written on Linked-Data-Group-8.pdf (22 pages, 202168 bytes).
 
-PDF statistics: 224 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 131072)
- 128 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 261 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 131072)
+ 136 words of extra memory for PDF output out of 10000 (max. 100000000)
 
