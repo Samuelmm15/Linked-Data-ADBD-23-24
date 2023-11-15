@@ -9,6 +9,8 @@
 \usepackage{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{nameref}
 \usepackage{fontspec}
 
 % Configuración de la fuente usada
@@ -58,11 +60,23 @@ De manera general, Linked Data representa un conjunto de prácticas sólidas par
 
 En el presente informe se tiene como objetivo explorar los fundamentos de Linked Data, desde sus principios esenciales hasta su aplicación práctica. En esencia este se centrará en cómo las URIs, el protocolo HTTP y el modelo RDF forman parte de la revolución semántica, permitiendo la interconexión de datos. Además, se examinará el impacto del Linked Open Data (LOD) y cómo este enfoque híbrido entre \texttt{datos enlazados} y \texttt{datos abiertos} está transformando la forma en la que se accede, se utiliza y se comparte la información en un mundo cada vez más interconectado.
 	 
-	\chapter{Componentes del Linked Data}
+	\chapter{Linked Data}
+
+	\section{Componentes de Linked Data}
 
 	Para comenzar con el estudio de Linked Data, es necesario entender los componentes que lo conforman. En este sentido, se puede decir que Linked Data se basa en tres pilares fundamentales: URIs, HTTP y RDF. A continuación, se describirá cada uno de estos componentes y se explicará su importancia en el contexto de Linked Data.
 
-- URI (Identificadores de recursos uniformes): Una URI es una cadena de caracteres que identifica de manera única un recurso en la web. En este perspectiva, se puede decir que una URI es un identificador de recursos uniforme, ya que, permite la identificación de los distintos recursos en la web de una manera uniforme y consistente. Además, las URIs son utilizadas por los agentes de software para acceder a los recursos de esta. La uniformidad en el contexto de las URIs hace referencia a los siguiente aspectos:
+- URI (Identificadores de recursos uniformes): Una URI es una cadena de caracteres que identifica de manera única un recurso en la web. En este perspectiva, se puede decir que una URI es un identificador de recursos uniforme, ya que, permite la identificación de los distintos recursos en la web de una manera uniforme y consistente. Además, las URIs son utilizadas por los agentes de software para acceder a los recursos de esta. \ref{subsec:Uniformidad-URIs}
+
+- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta. \ref{subsec:Características-HTTP}
+
+- RDF (Marco de Descripción de Recursos): RDF es un modelo estándar para describir recursos y sus relaciones haciendo uso de tripletes (sujeto, predicado, objeto). \ref{subsec:Características-RDF}
+
+- Enlaces entre recursos: Las URIs deben de incluir enlaces (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
+
+Estos componentes permiten que los datos estén interconectados, facilitando por un lado la navegación y el descubrimiento de información relacionada. Por tanto, cuando se siguen estos principios, se puede decir que los datos están enlazados (\textbf{Linked Data}), siendo estos datos fundamentales para la construcción de la web semántica, dónde, la información tiene un significado definido y las máquinas pueden entender y procesar los datos de manera efectiva.
+
+\subsection{Uniformidad de las URIs} \label{subsec:Uniformidad-URIs}
 
 \indent \indent \indent -  \textbf{Unicidad}: Cada recurso debe tener una URI única. La unicidad garantiza que no haya conflictos ni duplicados en la identificación de los recursos. Cada URI debería de ser única en el ámbito global de la web.
 
@@ -70,9 +84,9 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 \indent \indent \indent -  \textbf{Persistencia}: Las URIs deben de ser persistentes. Esto quiere decir que una URI debe de ser válida y accesible en todo momento. De esta manera, se garantiza que los recursos puedan ser accedidos en el momento que se considere.
 
-\indent \indent \indent -  \textbf{Desreferenciable}: Las URIs deben de ser desreferenciables. Es decir, el acceder a una URI mediante el protocolo \texttt{HTTP} se debe de obtener información sobre el recurso al que hace referencia la URI. Esto permite que las URIs no solo se traten de identificadores únicos, sino 	que también sean enlaces a información relevante.
+\indent \indent \indent -  \textbf{Desreferenciables}: Las URIs deben de ser desreferenciables. Es decir, el acceder a una URI mediante el protocolo \texttt{HTTP} se debe de obtener información sobre el recurso al que hace referencia la URI. Esto permite que las URIs no solo se traten de identificadores únicos, sino 	que también sean enlaces a información relevante.
 
-- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta. En cuanto a las características del protocolo, se pueden encontrar las siguientes a continuación:
+\subsection{Características del protocolo HTTP} \label{subsec:Características-HTTP}
 
 \indent \indent \indent - \textbf{Cliente-Servidor}: El protocolo HTTP se basa en un modelo cliente-servidor. Esto quiere decir que, el cliente realiza una petición al servidor y este le responde con la información solicitada. En este sentido, el cliente es el agente de software que realiza la petición y el servidor es el agente de software que responde a la petición.
 
@@ -88,7 +102,7 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 \indent \indent \indent - \textbf{Métodos}: El protocolo define una serie de métodos que se utilizan para poder indicar la acción que el cliente quiere realizar. Algunos de los métodos más comunes son GET, POST, PUT, DELETE, etc.
 
-- RDF (Marco de Descripción de Recursos): RDF es un modelo estándar para describir recursos y sus relaciones haciendo uso de tripletes (sujeto, predicado, objeto).
+\subsection{Características de RDF} \label{subsec:Características-RDF}
 
 \indent \indent \indent - \textbf{Reutilización}: RDF hace uso de URIs para identificar los recursos, permitiendo la facilidad en la reutilización de la información RDF en diferentes aplicaciones.
 
@@ -98,9 +112,7 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 \indent \indent \indent - \textbf{Escalabilidad}: Se puede hacer más grande según sea necesario (escalable),  permitiendo que se pueda usar para representar grandes cantidades de información o datos.
 
-- Enlaces entre recursos: Las URIs deben de incluir enlaces (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
-
-Estos componentes permiten que los datos estén interconectados, facilitando por un lado la navegación y el descubrimiento de información relacionada. Por tanto, cuando se siguen estos principios, se puede decir que los datos están enlazados (\textbf{Linked Data}), siendo estos datos fundamentales para la construcción de la web semántica, dónde, la información tiene un significado definido y las máquinas pueden entender y procesar los datos de manera efectiva.
+\section{Esquematización de los componentes de Linked Data}
 
 Teniendo en cuenta todo esto anterior, se puede observar a continuación una esquema de todo lo comentado anteriormente, de tal manera que los conceptos básicos puedan ser comprendidos de manera más sencilla \ref{fig:Componentes-Linked-Data}.
 
@@ -111,8 +123,19 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 	\label{fig:Componentes-Linked-Data}
 \end{figure}
 
-	\chapter{RDF de manera básica}
+\chapter{URI}
+	SAMUEL	
+	
+	\chapter{HTTP}
+	SAMUEL
+
+	\chapter{RDF}
+
+	\section{Introducción a RDF}
+
   Como se ha comentado de manera previa, \texttt{RDF} es un \textbf{modelo} que permite representar propiedades y valores de propiedades. Este, se basa en principios que se encuentran establecidos haciendo uso de varios tipos de representación de datos. Por otro lado, se puede hablar de las \textbf{propiedades RDF}, estas, se asemejan a los atributos y de manera general se corresponden con los pares de atributo-valor. Por último, se puede hablar de los \textbf{recursos RDF}, estos, se asemejan a los objetos en cuanto a aspectos de la terminología del diseño orientado a objetos, por tanto, los \texttt{recursos} son los objectos y las \texttt{propiedades} son los objetos específicos y variables de una categoría.
+
+	\section{Modelo de datos RDF}
 
 	En cuanto al modelo de datos básico de \textbf{RDF} se basa en los siguientes tres tipos de objetos:
 
@@ -122,7 +145,8 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 
 	- \textbf{Sentencias}: Las sentencias se tratan de una expresión que relaciona un recurso con una propiedad y un valor. Las tres partes individuales de una sentencia se denominan como \textbf{sujeto (\texttt{recurso}), predicado (\texttt{propiedad}) y objeto (\texttt{valor de la propiedad o literal})}, es decir, los denominados \textbf{tripletes}. El objeto de una sentencia puede ser otro recurso o un valor literal, a su vez un recurso puede ser especificado por un URI o una cadena simple de caracteres que se denominan como \textbf{literales}, además, dicho recurso puede ser a su vez datos primitivos definidos por \textbf{XML} (Lenguaje de marcado extensible) \cite{6}. 
 
-Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de sentencia RDF:
+	\section{Ejemplos de sentencias RDF}
+	Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de sentencia RDF:
 
 \begin{verbatim}
 	http://www.example.es/index.html tiene una desarrolladora cuyo valor es Andrea López.
@@ -189,15 +213,71 @@ Con esto en mente, se implementad el siguiente \textbf{modelo RDF}:
 \end{figure}
 
 	\chapter{RDF y XML}
+
+	\section{comparación entre RDF y XML}
+
 	Para comenzar con esta sección,  se establecerá una comparación entre \texttt{RDF} y \texttt{XML}. RDF hace uso del lenguaje XML \textbf{(Extensible Markup Language)} como método para poder representar la información. 
 
-	XML no se trata de un lenguaje de etiquetado, sino que se trata de un lenguaje que establece un conjunto de reglas que permiten a su vez la creación de lenguajes de etiquetado. Es decir, XML de manera única muestra las distintas normas que se deben de seguir sobre cómo se combinan las cadenas de caracteres, cómo se tienen de que especificar las propiedad de los elementos, etc. 
+	XML no se trata de un lenguaje de etiquetado, sino que se trata de un \textbf{Metalenguaje}, es decir, de un lenguaje que establece un conjunto de reglas que permiten a su vez la creación de lenguajes de etiquetado. Es decir, XML de manera única muestra las distintas normas que se deben de seguir sobre cómo se combinan las cadenas de caracteres, cómo se tienen de que especificar las propiedad de los elementos, etc. 
 
 	Es por ello que, tras entender el concepto de XML, se puede comentar que RDF hace uso de una DTD \textbf{(Document Type Definition)} de XML para desarrollar las propias etiquetas de RDF, es decir, una DTD se trata de un documento específico de trabajo dónde se establece un esquema el cuál nos permite informar sobre el contenido de cada conjunto de datos, la interpretación de estos y la forma correcta de trabajar con ellos. De esta manera, RDF al hacer uso de XML se favorece a la hora de generar nuevos conjuntos de etiquetas y el mecanismo semántico que ofrece para expresar la descripción de cualquier tipo de recurso RDF.
 
-	Por otra parte, XML permite la generación de árboles
+	Por otra parte, XML permite la generación de árboles con los distintos elementos y subelementos que forman el documento, a la vez, permite la representación del documento añadiendo o eliminando etiquetas.
 
-	\chapter{Principios de Linked Data según Tim Berners-Lee}
+	\section{Estructura del documento XML}
+
+	Un documento XML debe de incluir un \textbf{prólogo} y la \textbf{instancia documento}. El \texttt{prólogo} está formado por tres secciones distintas: 
+
+	- Declaración XML.
+	
+	- Declaración del tipo de documento.
+
+	- Referencia a una hoja de estilo externa.
+
+	Por tanto, para la comprensión de las distintas partes en las que se divide el documento XML se puede observar el siguiente ejemplo para ello:
+
+	\begin{verbatim}
+		<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+		<!DOCTYPE ProductoElectronico SYSTEM "producto.dtd">
+		<?xml-stylesheet href="productohtml.xsl" type="text/xsl"?>
+		<TiendaElectronica>
+			<ProductoElectronico>
+				<Nombre>Smartphone Galaxy</Nombre>
+				<Marca>Samsung</Marca>
+				<Precio>599.99</Precio>
+			</ProductoElectronico>
+			<ProductoElectronico>
+				<Nombre>Portátil Inspiron</Nombre>
+				<Marca>Dell</Marca>
+				<Precio>799.99</Precio>
+			</ProductoElectronico>
+		</TiendaElectronica>
+	\end{verbatim}
+
+Teniendo en cuenta el ejemplo adjunto anteriormente, se puede observar en la siguiente imagen \ref{fig:Example-XML} las distintas partes en las que se divide el prólogo en XML.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{../img/XML-Example-1.png}
+	\caption{Esquema de partes en las que se divide el documento XML.}
+	\label{fig:Example-XML}
+\end{figure}
+
+	\chapter{Tim Berners-Lee}
+	
+	\section{Principios de Linked Data según Tim Berners-Lee}
+
+	Tras comprender un poco más sobre los aspectos básicos de \texttt{Linked Data} durante los cuatro capítulos desarrollados anteriormente, podemos hablar de \textbf{Tim Berners-Lee } \cite{11}, el padre de la web,  el cual, en la presentación sobre Linked Data en las conferencias TED 2009, explicó los principios de linked data mediante tres reglas que permiten entender el concepto de esto de una manera mucho más sencilla:
+
+	1. Todos los objetos conceptuales posee denominaciones que se inician con HTTP.
+
+	2. Si se toma uno de los nombres HTTP y se realiza una búsqueda, se recibirá como resultado ciertos datos en un formato estándar que resulta útil para aquel que quiera conocer sobre dicha cosa o evento.
+
+	3. Cuando se obtiene información, no sólo se obtiene la información que se buscaba, sino que también se obtiene información sobre otros objetos relacionados con el objeto que se buscaba, es decir, sus relaciones. Y, cuando existen relaciones, a pesar de que no se trata de la información que se buscaba, esos propios datos también tendrán nombre que empiezan por HTTP, por tanto, se podrá acceder a ellos de la misma manera que se accedió a la información que se buscaba en un principio. 
+
+	Con esto, la plataforma de Datos Enlazados \textbf{(LDP, Linked Data Plataform)} define una serie de reglas para las distintas operaciones HTTP sobre los recursos web, algunos de estos están basados en \texttt{RDF}, permitiendo promover una arquitectura para leer y escribir Datos Enlazados en la web.
+
+	\chapter{Linked Data Plataform, LDP}
 	SAMUEL
 
 	\chapter{Proyecto Linking Open Data}
@@ -239,6 +319,10 @@ Con esto en mente, se implementad el siguiente \textbf{modelo RDF}:
 	\bibitem{6} AWS. 2023. ¿Qué es XML?. Amazon. \url{https://aws.amazon.com/es/what-is/xml/}
 	\bibitem{7}.  Eva Méndez. 2001. Resource Description Framework(RDF)	Especificación del Modelo y la Sintaxis. SIDAR. \url{http://www.sidar.org/recur/desdi/traduc/es/rdf/rdfesp.htm#basic}
 	\bibitem{8} María Jesús Lamarca Lapuente. 2018. Hipertexto, el nuevo concepto de documento en la cultura de la imagen. Hipertexto. \url{http://www.hipertexto.info/documentos/rdf.htm}
+	\bibitem{9} José A. Senso Ruiz. 2003. RDF: Resource Description Framework. Universidad de Granada. \url{https://arxiu-web.upf.edu/hipertextnet/numero-1/rdf.html#2.2}
+	\bibitem{10} David Fernández Medina. 2003. Estudio del modelo de representación XML/RDF. Universitat Oberta de Catalunya. \url{https://openaccess.uoc.edu/bitstream/10609/1024/1/20847tfc.pdf}
+	\bibitem{11} Wikipedia. 2023. Tim Berners-Lee. Wikipedia. \url{https://es.wikipedia.org/wiki/Tim_Berners-Lee}
+	\bibitem{12}. Gonzalo Villareal. 2015. Linked Data, recomendaciones de la W3C. SEDICIBlog. \url{https://blog.sedici.unlp.edu.ar/2015/03/13/linked-data-recomendaciones-de-la-w3c/}
 	\end{thebibliography}
 
 	\end{document}
