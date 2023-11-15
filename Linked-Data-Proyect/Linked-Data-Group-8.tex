@@ -80,7 +80,7 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 \indent \indent \indent - \textbf{Protocolo de aplicación}: Se trata de un protocolo de nivel de aplicación utilizado para la transferencia de información en la WWW (\texttt{World Wide Web}). De manera general, opera en la capa de aplicación del modelo OSI (\texttt{Open Systems Interconnection}) \cite{1}. 
 
-\indent \indent \indent - \textbf{Mensajes}: Las comunicaciones se realizan mediante mensajes. Un solicitud de un cliente y una respuesta del servidor consisten en un encabezado y de manera opcional en un cuerpo. El encabezado contiene la información sobre dicha solicitud o respuesta y el cuerpo contiene la infomación que se quiere transmitir.
+\indent \indent \indent - \textbf{Mensajes}: Las comunicaciones se realizan mediante mensajes. Un solicitud de un cliente y una respuesta del servidor consisten en un encabezado y de manera opcional en un cuerpo. El encabezado contiene la información sobre dicha solicitud o respuesta y el cuerpo contiene la información que se quiere transmitir.
 
 \indent \indent \indent - \textbf{URis}: Las distintas solicitudes y respuestas en HTTP hacen uso de identificadores de recursos uniformes para identificar los distintos recursos en la web. Esto lo que permite, es especificar la ubicación y el nombre del recurso.
 
@@ -92,13 +92,13 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 \indent \indent \indent - \textbf{Reutilización}: RDF hace uso de URIs para identificar los recursos, permitiendo la facilidad en la reutilización de la información RDF en diferentes aplicaciones.
 
-\indent \indent \indent - \textbf{Interoperabilidad}: Este está estandarizado por el W3C \cite{5}, lo que permite que diferentes aplicaciones RDF puedan trabajar juntas más fácilmente.
+\indent \indent \indent - \textbf{Interoperatividad}: Este está estandarizado por el W3C \cite{5}, lo que permite que diferentes aplicaciones RDF puedan trabajar juntas más fácilmente.
 
 \indent \indent \indent - \textbf{Extensibilidad}: RDF permite la extensión de vocabularios RDF existentes, lo que permite la creación de vocabularios RDF más específicos.
 
 \indent \indent \indent - \textbf{Escalabilidad}: Se puede hacer más grande según sea necesario (escalable),  permitiendo que se pueda usar para representar grandes cantidades de información o datos.
 
-- Enlaces entre recursos: Las URIs deben de incluir enlances (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
+- Enlaces entre recursos: Las URIs deben de incluir enlaces (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
 
 Estos componentes permiten que los datos estén interconectados, facilitando por un lado la navegación y el descubrimiento de información relacionada. Por tanto, cuando se siguen estos principios, se puede decir que los datos están enlazados (\textbf{Linked Data}), siendo estos datos fundamentales para la construcción de la web semántica, dónde, la información tiene un significado definido y las máquinas pueden entender y procesar los datos de manera efectiva.
 
@@ -120,9 +120,9 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 
 	- \textbf{Propiedades}: Las propiedades se tratan de los atributos que se quieren describir, es decir, se trata de un aspecto específico, característica, atributo o relación utilizado para describir un recurso. Por ejemplo, una propiedad puede ser el título de una página web, el autor de una página web, la fecha de creación de una página web, etc.  Cada propiedad tiene un significado en específico, define los valores permitidos, los tipos de recursos que puede describir y las relaciones con otras propiedades.
 
-	- \textbf{Setencias}: Las sentencias se tratan de una expresión que relaciona un recurso con una propiedad y un valor. Las tres partes individuales de una sentencia se denominan como \textbf{sujeto (\texttt{recurso}), predicado (\texttt{propiedad}) y objeto (\texttt{valor de la propiedad o literal})}, es decir, los denominados \textbf{tripletes}. El objeto de una sentencia puede ser otro recurso o un valor literal, a su vez un recurso puede ser especificado por un URI o una cadena simple de caracteres que se denominan como \textbf{literales}, además, dicho recurso puede ser a su vez datos primitivos definidos por \textbf{XML} (Lenguaje de marcado extensible) \cite{6}. 
+	- \textbf{Sentencias}: Las sentencias se tratan de una expresión que relaciona un recurso con una propiedad y un valor. Las tres partes individuales de una sentencia se denominan como \textbf{sujeto (\texttt{recurso}), predicado (\texttt{propiedad}) y objeto (\texttt{valor de la propiedad o literal})}, es decir, los denominados \textbf{tripletes}. El objeto de una sentencia puede ser otro recurso o un valor literal, a su vez un recurso puede ser especificado por un URI o una cadena simple de caracteres que se denominan como \textbf{literales}, además, dicho recurso puede ser a su vez datos primitivos definidos por \textbf{XML} (Lenguaje de marcado extensible) \cite{6}. 
 
-Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de setencia RDF:
+Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de sentencia RDF:
 
 \begin{verbatim}
 	http://www.example.es/index.html tiene una desarrolladora cuyo valor es Andrea López.
@@ -141,12 +141,12 @@ Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de seten
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.7]{../img/Diagrama-Nodo-Arco.png}
-		\caption{Diagrama de nodo y arco simple que representa el ejemplo de setencia RDF.}
+		\caption{Diagrama de nodo y arco simple que representa el ejemplo de sentencia RDF.}
 		\label{fig:Diagrama-Nodo-Arco}
 	\end{figure}
 
 	\fbox{\parbox{\textwidth}{
-    \textbf{Nota:} La dirección de la flecja del arco simple es muy importante. El arco siempre debe de empezar en el sujeto y apunta hacia el objeto de la sentencia RDF. De manera general se puede usar la siguiente sentencia:
+    \textbf{Nota:} La dirección de la flecha del arco simple es muy importante. El arco siempre debe de empezar en el sujeto y apunta hacia el objeto de la sentencia RDF. De manera general se puede usar la siguiente sentencia:
 
 		\textbf{<Sujeto> TIENE <Predicado> <Objeto>}
 }}
@@ -154,7 +154,7 @@ Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de seten
 A partir del ejemplo comprendido de manera previa, se pueden especificar algunas características más para dicho ejemplo como:
 
 \begin{verbatim}
-	El indiviudo cuyo nombre es Andrea López, correo electrónico <andre@example.es>, 
+	El individuo cuyo nombre es Andrea López, correo electrónico <andre@example.es>, 
 	es la desarrolladores de la página web <http://www.example.es/index.html>.
 \end{verbatim}
 
@@ -163,7 +163,7 @@ Teniendo esto en cuenta, la intención del ejemplo se basa en darle valor a la p
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.7]{../img/Propiedad-Estructurada.png}
-	\caption{Diagrama de nodo y arco simple que representa el ejemplo de setencia RDF.}
+	\caption{Diagrama de nodo y arco simple que representa el ejemplo de sentencia RDF.}
 	\label{fig:Diagrama-Nodo-Arco-2}
 \end{figure}
 
@@ -171,7 +171,7 @@ Teniendo esto en cuenta, la intención del ejemplo se basa en darle valor a la p
 	\textbf{Nota:} Se puede leer el diagrama anterior como http://www.example.es/index.html tiene la desarrolladora cualquiera y este cualquiera tiene el nombre Andrea López y el correo electrónico andre@example.es .
 }}
 
-Para finalizar, se puede implementar como ejemplo el uso de múltiples frases o sentecias RDF, por tanto, se tiene el siguiente ejemplo para ello:
+Para finalizar, se puede implementar como ejemplo el uso de múltiples frases o sentencias RDF, por tanto, se tiene el siguiente ejemplo para ello:
 
 \begin{verbatim}
 	El individuo al que se refiere el identificador de empleado id 15151 se llama Andrea López y 
@@ -189,8 +189,13 @@ Con esto en mente, se implementad el siguiente \textbf{modelo RDF}:
 \end{figure}
 
 	\chapter{RDF y XML}
-	SAMUEL
-	\url{https://arxiu-web.upf.edu/hipertextnet/numero-1/rdf.html#2.2}
+	Para comenzar con esta sección,  se establecerá una comparación entre \texttt{RDF} y \texttt{XML}. RDF hace uso del lenguaje XML \textbf{(Extensible Markup Language)} como método para poder representar la información. 
+
+	XML no se trata de un lenguaje de etiquetado, sino que se trata de un lenguaje que establece un conjunto de reglas que permiten a su vez la creación de lenguajes de etiquetado. Es decir, XML de manera única muestra las distintas normas que se deben de seguir sobre cómo se combinan las cadenas de caracteres, cómo se tienen de que especificar las propiedad de los elementos, etc. 
+
+	Es por ello que, tras entender el concepto de XML, se puede comentar que RDF hace uso de una DTD \textbf{(Document Type Definition)} de XML para desarrollar las propias etiquetas de RDF, es decir, una DTD se trata de un documento específico de trabajo dónde se establece un esquema el cuál nos permite informar sobre el contenido de cada conjunto de datos, la interpretación de estos y la forma correcta de trabajar con ellos. De esta manera, RDF al hacer uso de XML se favorece a la hora de generar nuevos conjuntos de etiquetas y el mecanismo semántico que ofrece para expresar la descripción de cualquier tipo de recurso RDF.
+
+	Por otra parte, XML permite la generación de árboles
 
 	\chapter{Principios de Linked Data según Tim Berners-Lee}
 	SAMUEL
