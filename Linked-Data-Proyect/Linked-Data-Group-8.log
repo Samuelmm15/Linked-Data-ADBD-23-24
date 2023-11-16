@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10.12) (format=lualatex 2023.11.15)  15 NOV 2023 23:13
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10.12) (format=lualatex 2023.11.15)  16 NOV 2023 17:37
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.te
@@ -612,62 +612,131 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-11-01 L3 programming layer (loader) 
+
 (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2023-10-23 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count292
 Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box63
-) (./Linked-Data-Group-8.aux)
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count293
+\l__fontspec_language_int=\count294
+\l__fontspec_strnum_int=\count295
+\l__fontspec_tmp_int=\count296
+\l__fontspec_tmpa_int=\count297
+\l__fontspec_tmpb_int=\count298
+\l__fontspec_tmpc_int=\count299
+\l__fontspec_em_int=\count300
+\l__fontspec_emdef_int=\count301
+\l__fontspec_strong_int=\count302
+\l__fontspec_strongdef_int=\count303
+\l__fontspec_tmpa_dim=\dimen276
+\l__fontspec_tmpb_dim=\dimen277
+\l__fontspec_tmpc_dim=\dimen278
+ (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+)))
+luaotfload | cache : Lookup cache loaded from C:/Users/samue/AppData/Local/MiKTe
+X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "Geist/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: Could not resolve font "Geist/I" (it probably doesn't
+(fontspec)             exist).
+
+luaotfload | aux : font no 21 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : font no 22 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'Geist(0)' created for font 'Geist' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Geist:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Geist/B:mode=node;script=latn;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+ (./Linked-Data-Group-8.aux)
 \openout1 = Linked-Data-Group-8.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+1.
 
 (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
-\scratchdimen=\dimen276
+\scratchcounter=\count304
+\scratchdimen=\dimen279
 \scratchbox=\box64
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count305
+\nofMParguments=\count306
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count296
-\MPscratchDim=\dimen277
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen280
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
 \everyMPtoPDFconversion=\toks36
 )
 (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
 fg
@@ -712,170 +781,308 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 37.
+Package hyperref Info: Link coloring OFF on input line 41.
 (./Linked-Data-Group-8.out) (./Linked-Data-Group-8.out)
 \@outlinefile=\write4
 
 \openout4 = Linked-Data-Group-8.out
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 41.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 41.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 41.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 41.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 41.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 41.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 41.
+LaTeX Font Info:    Redeclaring math accent \check on input line 41.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 41.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 41.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 41.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 41.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 41.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Geist(0)/m/n on input line 41.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Geist(0)/m/n on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Geist(0)/m/n --> TU/Geist(0)/m/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Geist(0)/m/it on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Geist(0)/b/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 41.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Geist(0)/m/n --> TU/Geist(0)/b/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Geist(0)/b/it on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 41.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
+(Font)              <12> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <8> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
+(Font)              <6> on input line 50.
  [1
 
 {C:/Users/samue/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (./Linked-Da
 ta-Group-8.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
-)
-\tf@toc=\write5
-
-\openout5 = Linked-Data-Group-8.toc
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-]
+])
+\tf@toc=\write5
+
+\openout5 = Linked-Data-Group-8.toc
+ [2]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 55.
-[2
-
-]
-Chapter 2.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 59.
 [3
 
 ]
-<../img/Componentes-Linked-Data.png, id=184, 753.81625pt x 664.4825pt>
+Chapter 2.
+[4
+
+]
+Overfull \hbox (3.6084pt too wide) in paragraph at lines 111--112
+[][][]\TU/Geist(0)/m/n/10.95 - \TU/Geist(0)/b/n/10.95 Ex-ten-si-bil-i-dad\TU/Ge
+ist(0)/m/n/10.95 : RDF per-mite la ex-ten-sión de vo-cab-u-lar-ios RDF ex-is-te
+ntes, lo que per-mite la creación
+ []
+
+<../img/Componentes-Linked-Data.png, id=231, 753.81625pt x 664.4825pt>
 File: ../img/Componentes-Linked-Data.png Graphic file (type png)
 <use ../img/Componentes-Linked-Data.png>
 Package luatex.def Info: ../img/Componentes-Linked-Data.png  used on input line
- 117.
+ 121.
 (luatex.def)             Requested size: 452.29324pt x 398.69257pt.
- [4] [5<../img/Componentes-Linked-Data.png>]
+[5] [6<../img/Componentes-Linked-Data.png>]
 Chapter 3.
-[6
 
-]
-Chapter 4.
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 144--145
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 156--157
+[][] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 168--169
+[][] 
+ []
+
+<../img/diferencia-entre-url-y-uri.png, id=246, 795.97375pt x 300.12125pt>
+File: ../img/diferencia-entre-url-y-uri.png Graphic file (type png)
+<use ../img/diferencia-entre-url-y-uri.png>
+Package luatex.def Info: ../img/diferencia-entre-url-y-uri.png  used on input l
+ine 180.
+(luatex.def)             Requested size: 477.58794pt x 180.07413pt.
 [7
 
 ]
-Chapter 5.
-<../img/Diagrama-Nodo-Arco.png, id=207, 512.91624pt x 81.30376pt>
-File: ../img/Diagrama-Nodo-Arco.png Graphic file (type png)
-<use ../img/Diagrama-Nodo-Arco.png>
-Package luatex.def Info: ../img/Diagrama-Nodo-Arco.png  used on input line 163.
-
-(luatex.def)             Requested size: 359.03893pt x 56.91223pt.
-[8
-
-]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 172--173
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 187--188
 [][] 
  []
 
-<../img/Propiedad-Estructurada.png, id=214, 422.57875pt x 362.35374pt>
+[8<../img/diferencia-entre-url-y-uri.png>]
+Chapter 4.
+[9
+
+] [10]
+Chapter 5.
+
+Overfull \hbox (0.2156pt too wide) in paragraph at lines 282--283
+\TU/Geist(0)/b/n/10.95 cado (\TU/lmtt/b/n/10.95 propiedad\TU/Geist(0)/b/n/10.95
+ ) y ob-jeto (\TU/lmtt/b/n/10.95 valor de la propiedad o literal\TU/Geist(0)/b/
+n/10.95 )\TU/Geist(0)/m/n/10.95 , es de-cir, los de-nom-i-na-dos \TU/Geist(0)/b
+/n/10.95 tripletes\TU/Geist(0)/m/n/10.95 .
+ []
+
+<../img/Diagrama-Nodo-Arco.png, id=271, 512.91624pt x 81.30376pt>
+File: ../img/Diagrama-Nodo-Arco.png Graphic file (type png)
+<use ../img/Diagrama-Nodo-Arco.png>
+Package luatex.def Info: ../img/Diagrama-Nodo-Arco.png  used on input line 303.
+
+(luatex.def)             Requested size: 359.03893pt x 56.91223pt.
+[11
+
+]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 312--313
+[][] 
+ []
+
+<../img/Propiedad-Estructurada.png, id=278, 422.57875pt x 362.35374pt>
 File: ../img/Propiedad-Estructurada.png Graphic file (type png)
 <use ../img/Propiedad-Estructurada.png>
 Package luatex.def Info: ../img/Propiedad-Estructurada.png  used on input line 
-185.
+325.
 (luatex.def)             Requested size: 295.8031pt x 253.64589pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 192--193
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 332--333
 [][] 
  []
 
 
-Overfull \hbox (34.14964pt too wide) in paragraph at lines 200--200
+Overfull \hbox (34.14964pt too wide) in paragraph at lines 340--340
 [] \TU/lmtt/m/n/10.95 El individuo al que se refiere el identificador de emplead
 o id 15151 se llama Andrea López y[] 
  []
 
-[9<../img/Diagrama-Nodo-Arco.png><../img/Propiedad-Estructurada.png>]
-<../img/Modelo-RDF.png, id=223, 422.57875pt x 362.35374pt>
+[12<../img/Diagrama-Nodo-Arco.png><../img/Propiedad-Estructurada.png>]
+<../img/Modelo-RDF.png, id=287, 422.57875pt x 362.35374pt>
 File: ../img/Modelo-RDF.png Graphic file (type png)
 <use ../img/Modelo-RDF.png>
-Package luatex.def Info: ../img/Modelo-RDF.png  used on input line 206.
+Package luatex.def Info: ../img/Modelo-RDF.png  used on input line 346.
 (luatex.def)             Requested size: 295.8031pt x 253.64589pt.
- [10<../img/Modelo-RDF.png>]
+ [13<../img/Modelo-RDF.png>]
 Chapter 6.
-[11
-
-]
-<../img/XML-Example-1.png, id=236, 763.85374pt x 292.09125pt>
-File: ../img/XML-Example-1.png Graphic file (type png)
-<use ../img/XML-Example-1.png>
-Package luatex.def Info: ../img/XML-Example-1.png  used on input line 257.
-(luatex.def)             Requested size: 534.69397pt x 204.46246pt.
-
-Overfull \hbox (34.20998pt too wide) in paragraph at lines 257--258
- [][] 
- []
-
-[12<../img/XML-Example-1.png>]
-Chapter 7.
-[13
-
-]
-Chapter 8.
 [14
 
 ]
-Chapter 9.
-[15
+<../img/XML-Example-1.png, id=299, 763.85374pt x 292.09125pt>
+File: ../img/XML-Example-1.png Graphic file (type png)
+<use ../img/XML-Example-1.png>
+Package luatex.def Info: ../img/XML-Example-1.png  used on input line 397.
+(luatex.def)             Requested size: 534.69397pt x 204.46246pt.
 
-]
-Chapter 10.
+Overfull \hbox (34.20998pt too wide) in paragraph at lines 397--398
+ [][] 
+ []
+
+[15<../img/XML-Example-1.png>]
+Chapter 7.
 [16
 
 ]
-Chapter 11.
+Chapter 8.
 [17
 
 ]
-Chapter 12.
+Chapter 9.
 [18
 
 ]
-Chapter 13.
+Chapter 10.
 [19
 
 ]
-Chapter 14.
+Chapter 11.
+
+Overfull \hbox (26.79877pt too wide) in paragraph at lines 425--425
+|\TU/Geist(0)/b/n/20.74 Chap-ter 11 \TU/Geist(0)/b/n/24.88 Relación en-tre Link
+ed Data y Open
+ []
+
 [20
 
 ]
-Chapter 15.
+Chapter 12.
 [21
 
 ]
-Chapter 16.
+Chapter 13.
 [22
 
 ]
-Chapter 17.
+Chapter 14.
 [23
 
 ]
-Chapter 18.
+Chapter 15.
 [24
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
-[]\TU/lmr/m/n/10.95 AR-IT-MET-ICS. 2023. Qué es W3C. AR-IT-MET-ICS. []$\TU/lmt
-t/m/n/10.95 https://www.arimetrics.com/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
-[]\TU/lmr/m/n/10.95 Wikipedia. 2023. Tim Berners-Lee. Wikipedia. []$\TU/lmtt/m/
-n/10.95 https://es.wikipedia.org/wiki/Tim_
- []
-
+Chapter 16.
 [25
+
+]
+Chapter 17.
+[26
+
+]
+Chapter 18.
+[27
+
+]
+Underfull \hbox (badness 1248) in paragraph at lines 451--452
+[]\TU/Geist(0)/m/n/10.95 12Car-ac-terís-ti-cas. 2023. HTTP (Car-ac-terís-ti-ca
+s, con-cepto y fun-ciones). 12Car-ac-terís-ti-cas.
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 453--454
+[]\TU/Geist(0)/m/n/10.95 Open-Data Eu-skadi. 2023. RDF (Re-source De-scrip-tion Frame-work). Open-Data. []$\TU/lmtt/m/n/10.95 https:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+\TU/lmtt/m/n/10.95 //opendata.euskadi.eus/contenidos/informacion/opendata_rdf_eu
+skadi/es_info/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[]\TU/Geist(0)/m/n/10.95 AR-IT-MET-ICS. 2023. Qué es W3C. AR-IT-MET-ICS. []$\T
+U/lmtt/m/n/10.95 https://www.arimetrics.com/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+[]\TU/Geist(0)/m/n/10.95 Wikipedia. 2023. Tim Berners-Lee. Wikipedia. []$\TU/lm
+tt/m/n/10.95 https://es.wikipedia.org/wiki/Tim_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+[]\TU/Geist(0)/m/n/10.95 AR-IT-MET-RICS. 2023. Qué es URI. AR-IT-MET-RICS. []$
+\TU/lmtt/m/n/10.95 https://www.arimetrics.com/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+[]\TU/Geist(0)/m/n/10.95 htm-lquick. 2023. URIS y URLS. htm-lquick. []$\TU/lmtt
+/m/n/10.95 https://www.htmlquick.com/es/reference/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--465
+[]\TU/Geist(0)/m/n/10.95 Fer-nando Tel-lado. 2016. ¿Se dice URL o URI?. Word-Pr
+ess. []$\TU/lmtt/m/n/10.95 https://ayudawp.com/
+ []
+
+[28
 
 ] (./Linked-Data-Group-8.aux)
  ***********
@@ -883,32 +1090,28 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `Linked-Data-Group-8.out' has not changed.
-(rerunfilecheck)             Checksum: 40FFED2799E7BF2E357F967110DB7F7F;4940.
+(rerunfilecheck)             Checksum: EBF05CDE23F9CC60E98D49C339064754;6577.
 )
 
 Here is how much of LuaTeX's memory you used:
- 20296 strings out of 476603
+ 22668 strings out of 476603
  125086,1977958 words of node,token memory allocated
- 513 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 12 attribute, 54 glue_spec
-, 12 attribute_list, 2 write, 7 pdf_action nodes
-   avail lists: 1:1,2:537,3:367,4:56,5:319,6:82,7:7333,8:97,9:397,10:13,11:598
- 41650 multiletter control sequences out of 65536+600000
- 40 fonts using 3095967 bytes
+ 533 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 14 attribute, 54 glue_spec
+, 14 attribute_list, 2 write, 9 pdf_action nodes
+   avail lists: 1:3,2:675,3:543,4:90,5:2208,6:94,7:7324,8:97,9:496,10:13,11:600
+ 43964 multiletter control sequences out of 65536+600000
+ 50 fonts using 4017391 bytes
  105i,7n,115p,1262b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 o10-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype
-/public/lm/lmmonolt10-bold.otf><//?/c:/users/samue/appdata/local/programs/miktex
-/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/samue/appdata/loca
-l/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/samu
-e/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?
-/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-
-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/pub
-lic/lm/lmroman12-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/f
-onts/opentype/public/lm/lmroman17-regular.otf>
-Output written on Linked-Data-Group-8.pdf (26 pages, 314687 bytes).
+/public/lm/lmmonolt10-bold.otf><C:/Users/samue/AppData/Local/Microsoft/Windows/F
+onts/geist-semibold.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/
+opentype/public/lm/lmmono12-regular.otf><C:/Users/samue/AppData/Local/Microsoft/
+Windows/Fonts/geist-regular.otf>
+Output written on Linked-Data-Group-8.pdf (29 pages, 355676 bytes).
 
-PDF statistics: 385 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 131072)
- 248 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 446 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 131072)
+ 320 words of extra memory for PDF output out of 10000 (max. 100000000)
 

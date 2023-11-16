@@ -1,29 +1,38 @@
-\contentsline {chapter}{\numberline {1}Introducción}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Linked Data}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Componentes de Linked Data}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Uniformidad de las URIs}{3}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Características del protocolo HTTP}{4}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Características de RDF}{4}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Esquematización de los componentes de Linked Data}{4}{section.2.2}%
-\contentsline {chapter}{\numberline {3}URI}{6}{chapter.3}%
-\contentsline {chapter}{\numberline {4}HTTP}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}RDF}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introducción a RDF}{8}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Modelo de datos RDF}{8}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ejemplos de sentencias RDF}{8}{section.5.3}%
-\contentsline {chapter}{\numberline {6}RDF y XML}{11}{chapter.6}%
-\contentsline {section}{\numberline {6.1}comparación entre RDF y XML}{11}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Estructura del documento XML}{11}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Tim Berners-Lee}{13}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Principios de Linked Data según Tim Berners-Lee}{13}{section.7.1}%
-\contentsline {chapter}{\numberline {8}Linked Data Plataform, LDP}{14}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Proyecto Linking Open Data}{15}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Linked Open Data (LOD)}{16}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Relación entre Linked Data y Open Data}{17}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Linked Data y Web Semántica}{18}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Linked Data y Web 3.0}{19}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Beneficios de Linked Data}{20}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Problemas de Linked Data}{21}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Linked Data en bibliotecas}{22}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Linked Data en la actualidad}{23}{chapter.17}%
-\contentsline {chapter}{\numberline {18}Conclusiones}{24}{chapter.18}%
+\contentsline {chapter}{\numberline {1}Introducción}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Linked Data}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Componentes de Linked Data}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Uniformidad de las URIs}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Características del protocolo HTTP}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Características de RDF}{5}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Esquematización de los componentes de Linked Data}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {3}URI}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introducción a las URIs}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Diferencias entre URI y URL}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Tipos de URI}{8}{section.3.3}%
+\contentsline {chapter}{\numberline {4}HTTP}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introducción a HTTP}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}HTTP y Linked Data}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}implementación de Linked Data con HTTP}{10}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Identificación de Recursos}{10}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Asignación de URIs}{10}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Publicación de los datos}{10}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}RDF}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introducción a RDF}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Modelo de datos RDF}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ejemplos de sentencias RDF}{11}{section.5.3}%
+\contentsline {chapter}{\numberline {6}RDF y XML}{14}{chapter.6}%
+\contentsline {section}{\numberline {6.1}comparación entre RDF y XML}{14}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Estructura del documento XML}{14}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Tim Berners-Lee}{16}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Principios de Linked Data según Tim Berners-Lee}{16}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Linked Data Plataform, LDP}{17}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Proyecto Linking Open Data}{18}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Linked Open Data (LOD)}{19}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Relación entre Linked Data y Open Data}{20}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Linked Data y Web Semántica}{21}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Linked Data y Web 3.0}{22}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Beneficios de Linked Data}{23}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Problemas de Linked Data}{24}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Linked Data en bibliotecas}{25}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Linked Data en la actualidad}{26}{chapter.17}%
+\contentsline {chapter}{\numberline {18}Conclusiones}{27}{chapter.18}%

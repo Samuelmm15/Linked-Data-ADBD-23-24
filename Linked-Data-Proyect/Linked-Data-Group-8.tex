@@ -11,6 +11,10 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{nameref}
+\usepackage{fontspec}
+
+% Configura la fuente
+\setmainfont{Geist}
 
 
 % Configura los márgenes
@@ -35,32 +39,32 @@
 
 
 \begin{document}
-	
-	% Portada del informe
-	
-	\title{Linked Data}
-	\author{Samuel Martín Morales  \texttt{alu0101359526@ull.edu.es} \and Jorge Domínguez González  \texttt{alu0101330600@ull.edu.es} \and Juan Diego Rendon Cachafeiro \texttt{alu0101327747@ull.edu.es}}
-	\date{\today}
-	
-	\maketitle
-	
-	% Índice
-	\tableofcontents
-	
-	% Secciones del informe
-	\chapter{Introducción}
 
-  En la última década, la web ha experimentado una transformación fundamental desde una simple red de información hacia lo que hoy se conoce como \textbf{Linked Data} o \textbf{datos enlazados}. Este cambio, impulsado por la evolución de la web semántica, ha llevado a la adopción de un paradigma que va más allá de la  presentación de información en forma de texto. Linked Data propone una visión donde los datos adquieren una estructura que facilita la creación de conexiones y enlaces entre diversos conjuntos de datos, provenientes incluso de fuentes y proveedores distintos.
+% Portada del informe
+
+\title{Linked Data}
+\author{Samuel Martín Morales  \texttt{alu0101359526@ull.edu.es} \and Jorge Domínguez González  \texttt{alu0101330600@ull.edu.es} \and Juan Diego Rendon Cachafeiro \texttt{alu0101327747@ull.edu.es}}
+\date{\today}
+
+\maketitle
+
+% Índice
+\tableofcontents
+
+% Secciones del informe
+\chapter{Introducción}
+
+En la última década, la web ha experimentado una transformación fundamental desde una simple red de información hacia lo que hoy se conoce como \textbf{Linked Data} o \textbf{datos enlazados}. Este cambio, impulsado por la evolución de la web semántica, ha llevado a la adopción de un paradigma que va más allá de la  presentación de información en forma de texto. Linked Data propone una visión donde los datos adquieren una estructura que facilita la creación de conexiones y enlaces entre diversos conjuntos de datos, provenientes incluso de fuentes y proveedores distintos.
 
 De manera general, Linked Data representa un conjunto de prácticas sólidas para la publicación y conexión de datos estructurados en la web. Haciendo uso de tecnologías del W3C, como \textbf{URIs}, el \textbf{protocolo HTTP} y el modelo de datos \textbf{RDF} o \texttt{\textbf{Resource Description Framework}}, se establece una base que permite la identificación única de entidades, la recuperación de recursos y la descripción detallada de los mismos.
 
 En el presente informe se tiene como objetivo explorar los fundamentos de Linked Data, desde sus principios esenciales hasta su aplicación práctica. En esencia este se centrará en cómo las URIs, el protocolo HTTP y el modelo RDF forman parte de la revolución semántica, permitiendo la interconexión de datos. Además, se examinará el impacto del Linked Open Data (LOD) y cómo este enfoque híbrido entre \texttt{datos enlazados} y \texttt{datos abiertos} está transformando la forma en la que se accede, se utiliza y se comparte la información en un mundo cada vez más interconectado.
-	 
-	\chapter{Linked Data}
 
-	\section{Componentes de Linked Data}
+\chapter{Linked Data}
 
-	Para comenzar con el estudio de Linked Data, es necesario entender los componentes que lo conforman. En este sentido, se puede decir que Linked Data se basa en tres pilares fundamentales: URIs, HTTP y RDF. A continuación, se describirá cada uno de estos componentes y se explicará su importancia en el contexto de Linked Data.
+\section{Componentes de Linked Data}
+
+Para comenzar con el estudio de Linked Data, es necesario entender los componentes que lo conforman. En este sentido, se puede decir que Linked Data se basa en tres pilares fundamentales: URIs, HTTP y RDF. A continuación, se describirá cada uno de estos componentes y se explicará su importancia en el contexto de Linked Data.
 
 - URI (Identificadores de recursos uniformes): Una URI es una cadena de caracteres que identifica de manera única un recurso en la web. En este perspectiva, se puede decir que una URI es un identificador de recursos uniforme, ya que, permite la identificación de los distintos recursos en la web de una manera uniforme y consistente. Además, las URIs son utilizadas por los agentes de software para acceder a los recursos de esta. \ref{subsec:Uniformidad-URIs}
 
@@ -88,7 +92,7 @@ Estos componentes permiten que los datos estén interconectados, facilitando por
 
 \indent \indent \indent - \textbf{Sin estado}: El protocolo HTTP es un protocolo sin estado. Es decir, cada petición que se realiza al servidor es independiente de las demás. Por tanto, el servidor no guarda información sobre las peticiones anteriores. Esto permite que el protocolo sea simple y fácil de implementar.
 
-\indent \indent \indent - \textbf{Protocolo de aplicación}: Se trata de un protocolo de nivel de aplicación utilizado para la transferencia de información en la WWW (\texttt{World Wide Web}). De manera general, opera en la capa de aplicación del modelo OSI (\texttt{Open Systems Interconnection}) \cite{1}. 
+\indent \indent \indent - \textbf{Protocolo de aplicación}: Se trata de un protocolo de nivel de aplicación utilizado para la transferencia de información en la WWW (\texttt{World Wide Web}). De manera general, opera en la capa de aplicación del modelo OSI (\texttt{Open Systems Interconnection}) \cite{1}.
 
 \indent \indent \indent - \textbf{Mensajes}: Las comunicaciones se realizan mediante mensajes. Un solicitud de un cliente y una respuesta del servidor consisten en un encabezado y de manera opcional en un cuerpo. El encabezado contiene la información sobre dicha solicitud o respuesta y el cuerpo contiene la información que se quiere transmitir.
 
@@ -120,29 +124,165 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 \end{figure}
 
 \chapter{URI}
-	SAMUEL	
-	
-	\chapter{HTTP}
-	SAMUEL
 
-	\chapter{RDF}
+\section{Introducción a las URIs}
 
-	\section{Introducción a RDF}
+Una \textbf{URI} (identificador uniforme de recursos). se utilizan en una gran variedad de contexto, ya sea en la WWW, en la mensajería electrónica y en los sistemas de archivos. En dicho sentido se dice que las URIs son identificadores de recursos uniformes. La sintaxis básica de una URI se compone de los siguiente elementos:
 
-  Como se ha comentado de manera previa, \texttt{RDF} es un \textbf{modelo} que permite representar propiedades y valores de propiedades. Este, se basa en principios que se encuentran establecidos haciendo uso de varios tipos de representación de datos. Por otro lado, se puede hablar de las \textbf{propiedades RDF}, estas, se asemejan a los atributos y de manera general se corresponden con los pares de atributo-valor. Por último, se puede hablar de los \textbf{recursos RDF}, estos, se asemejan a los objetos en cuanto a aspectos de la terminología del diseño orientado a objetos, por tanto, los \texttt{recursos} son los objectos y las \texttt{propiedades} son los objetos específicos y variables de una categoría.
+- \textbf{Esquema}: Se trata de la parte inicial de la URI, la cual, se trata de un identificador de esquema que se utiliza para identificar el tipo de recurso que se está identificando. Por ejemplo, en el caso de las URIs de la web, el esquema es \texttt{http} o \texttt{https}.
 
-	\section{Modelo de datos RDF}
+- \textbf{Autoridad}: Se trata de la parte de la URI que identifica la autoridad que controla el recurso. En el caso de las URIs de la web, la autoridad es el nombre de dominio. Por ejemplo:
 
-	En cuanto al modelo de datos básico de \textbf{RDF} se basa en los siguientes tres tipos de objetos:
+Se tiene la siguiente URI tomada como ejemplo:
 
-	- \textbf{Recursos}: Los recursos se tratan de los objetos que se quieren describir, es decir, se enfocan como todos los elementos que son descritos por expresiones RDF. Es decir, por ejemplo, un recurso puede se una página web completa, una parte de una página web, una colección completa de páginas, etc. Para finalizar, los recursos se deben de designar siempre por URIs más etiquetas de identificación de destino.
+\begin{verbatim}
+	https://www.example.com/index.html
+\end{verbatim}
 
-	- \textbf{Propiedades}: Las propiedades se tratan de los atributos que se quieren describir, es decir, se trata de un aspecto específico, característica, atributo o relación utilizado para describir un recurso. Por ejemplo, una propiedad puede ser el título de una página web, el autor de una página web, la fecha de creación de una página web, etc.  Cada propiedad tiene un significado en específico, define los valores permitidos, los tipos de recursos que puede describir y las relaciones con otras propiedades.
+\fbox{\parbox{\textwidth}{
+		\textbf{Autoridad}: www.example.com
+	}}
 
-	- \textbf{Sentencias}: Las sentencias se tratan de una expresión que relaciona un recurso con una propiedad y un valor. Las tres partes individuales de una sentencia se denominan como \textbf{sujeto (\texttt{recurso}), predicado (\texttt{propiedad}) y objeto (\texttt{valor de la propiedad o literal})}, es decir, los denominados \textbf{tripletes}. El objeto de una sentencia puede ser otro recurso o un valor literal, a su vez un recurso puede ser especificado por un URI o una cadena simple de caracteres que se denominan como \textbf{literales}, además, dicho recurso puede ser a su vez datos primitivos definidos por \textbf{XML} (Lenguaje de marcado extensible) \cite{6}. 
+- \textbf{Parámetros}: Se trata del fragmento que se encarga de proporcionar información adicional sobre los recursos. Por ejemplo:
 
-	\section{Ejemplos de sentencias RDF}
-	Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de sentencia RDF:
+Se hace uso de una URI similar a la adjunta anteriormente:
+
+\begin{verbatim}
+	https://www.example.com/index.html?lang=es
+\end{verbatim}
+
+\fbox{\parbox{\textwidth}{
+		\textbf{Parámetros}: lang=es
+	}}
+
+- \textbf{Fragmento}: se trata del segmento que trata de identificar una parte específica del recurso. Por ejemplo:
+
+Finalmente se tiene la siguiente URI tomada como muestra:
+
+\begin{verbatim}
+	https://www.example.com/index.html#section1
+\end{verbatim}
+
+\fbox{\parbox{\textwidth}{
+		\textbf{Fragmento}: section1
+	}}
+
+\section{Diferencias entre URI y URL}
+
+Como se ha podido ver en la sección anterior, podemos considerar que las URIs y las URLs \texttt{(Uniform Resource Locator)} son lo mismo y que son iguales, pero, no son lo mismo, ya que, una URLse utiliza de manera principal para apuntar una página web o una parte de estas, haciendo uso de esquemas o protocolos como http, https o ftp, permitiendo mejorar la facilidad con la que se puede acceder a las ubicaciones de los distintos recursos que existen en la web. Por otro lado, una URI se utiliza para definir las identidades de los objetos, de manera independiente del método que se use. 
+
+Con todo esto comentado anteriormente, se puede afirmar que una URL se trata de una URI o de un tipo de URI, pero, no se puede decir que una URI puede ser una URL.
+
+Para poder comprender un poco mejor la diferencia entre una URL y una URI, se puede observar la siguiente imagen \ref{fig:URI-URL}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{../img/diferencia-entre-url-y-uri.png}
+	\caption{Diferencia entre URI y URL.}
+	\label{fig:URI-URL}
+\end{figure}
+
+\fbox{\parbox{\textwidth}{
+		\textbf{Nota}: el termino \texttt{slug} que se puede observar en la imagen identifica el contenido específico de una página, es decir, se utiliza para describir el contenido de la página de manera que sea fácil de entender por parte del usuario final.
+	}}
+
+\section{Tipos de URI}
+
+Para finalizar con esta sección, se puede hablar de los distintos tipos de URIs que existen:
+
+- \textbf{IRI}: Se trata del identificador internacional de recursos. Es decir, se trata de una versión internacionalizada de las URIs. Esto quiere decir que, se trata de una URI que puede contener caracteres Unicode, al contrario que la URI que solo admite la codificación ASCI.
+
+- \textbf{URL}: Se trata del identificador uniforme de recursos, consiste en una URI que indica la ubicación de un recurso en internet, permitiendo localizarlo de manera sencilla.
+
+- \textbf{URN}: Se trata del nombre uniforme de recursos, consiste en una URI que identifica de manera única un recurso, pero, no indica su ubicación. Por tanto, indica un nombre único y público de un recurso en internet.
+
+- \textbf{URC}: Se trata de la citación uniforme de recursos, es decir, se trata de una URI que se utiliza para citar un recurso en internet.
+
+\chapter{HTTP}
+
+\section{Introducción a HTTP}
+
+HTTP \texttt{Protocolo de Transferencia de Hipertexto en español} es un protocolo de la capa de aplicación del modelo OSI, que se encarga de la transmisión de documentos como HTML.  Dicho protocolo se basa en el modelo cliente servidor, donde un cliente puede realizar solicitudes y un servidor se encarga de dar respuestas a dichas solicitudes. Cada recurso que se encuentran dentro de la web, ya sean páginas web, imágenes, documentos, etc, es identificado por una URL y puede ser accedido a través de las distintas solicitudes que proporciona el protocolo HTTP.
+
+Teniendo en cuenta el contexto de \textbf{Linked Data}, se puede decir que HTTP es el protocolo de la web, ya que, este permite cumplir con la filosofía que sigue Linked Data, ya que esta busca publicar y conectar datos en la web de tal manera que se encuentren interconectados y puedan ser consultados de forma coherente.
+
+\section{HTTP y Linked Data}
+
+HTTP se utiliza para poder acceder a los recursos de datos que se encuentran en la web, estos, se identifican mediante URI. Es por ello que, las URI de Linked Data suelen utilizar el esquema "http" o "https" para poder identificar los recursos comentados. Para poder comprender todo esto se puede observar el siguiente ejemplo de URI que permite la identificación de un recurso de datos sobre el pueblo de Tinajo en Lanzarote.
+
+\begin{verbatim}
+	http://datos.tinajo.es/resource/poblacion/2019
+\end{verbatim}
+
+La URI adjunta permite que mediante una solicitud \textbf{HTTP GET} se puedan acceder a los datos que existen sobre la población de Tinajo en Lanzarote en el año 2019. De esta manera, HTTP permite la recuperación de recursos en la web. Por otro lado, HTTP también permite publicar datos de Linked Data en la web mediante un servidor HTTP, dicho servidor, puede responder a las distintas solicitudes de los clientes o de aquellos usuarios que quieran acceder a los recursos. Un ejemplo de implementación de servidor que permita publicar el recurso de la población de Tinajo en Lanzarote en el año 2019.
+
+\begin{verbatim}
+	# Librerías necesarias
+	import requests
+	import json
+
+	# Definición de la URI del recurso
+	uri = "http://datos.tinajo.es/resource/poblacion/2019"
+
+	# Definición de los datos del recurso
+	data = {
+			"name": "Tinajo",
+			"population": 6.000,
+			"capital": False
+	}
+
+	# Publicación de los datos mediante una solicitud \textbf{POST HTTP}
+	requests.post(uri, data=json.dumps(data))
+\end{verbatim}
+
+El código permite crear un nuevo recurso sobre Tinajo en el servidor HTTP, teniendo en cuenta los siguientes datos:
+
+- El nombre del recurso es Tinajo.
+
+- La población de Tinajo es de 6.000 habitantes.
+
+- Tinajo no es la capital de Lanzarote.
+
+\section{implementación de Linked Data con HTTP}
+
+Dentro de la implementación de Linked Data haciendo uso del protocolo HTTP se deben de seguir una serie de pasos que permiten la correcta implementación de este. Por tanto, se puede hablar de los siguientes pasos:
+
+1. Identificación de los distintos recursos de datos.
+
+2. Asignación de URIs a cada uno de los recursos.
+
+3. Publicación de los datos de los recursos en la web.
+
+\subsection{Identificación de Recursos}
+
+En cuanto a la identificación de los distintos recursos de datos se debe de seguir una metodología que va desde el análisis del contenido de los distintos documentos HTML hasta la utilización de un vocabulario de Linked Data.
+
+\subsection{Asignación de URIs}
+
+Tras la identificación de los distintos recursos de datos se procede a la asignación de URIs a cada uno de los recursos. Para ello, se debe de tener en cuenta que las URIs deben de ser únicas, persistentes y desreferenciables. Para ello se debe de hacer uso de un esquema de URI que se encuentre predefinido \cite{16} o la creación de una URI personalizada.
+
+\subsection{Publicación de los datos}
+
+Para finalizar, se debe de publicar los datos de los recursos en la web. Para ello, se debe de hacer uso de un servidor HTTP que permita la publicación de los datos de los recursos. Además, se debe de tener en cuenta que los datos deben de ser publicados en un formato estándar como RDF, JSON-LD, Turtle, etc. A pesar de ello, el formato que se hace uso para Linked Data en este caso es RDF.
+
+\chapter{RDF}
+
+\section{Introducción a RDF}
+
+Como se ha comentado de manera previa, \texttt{RDF} es un \textbf{modelo} que permite representar propiedades y valores de propiedades. Este, se basa en principios que se encuentran establecidos haciendo uso de varios tipos de representación de datos. Por otro lado, se puede hablar de las \textbf{propiedades RDF}, estas, se asemejan a los atributos y de manera general se corresponden con los pares de atributo-valor. Por último, se puede hablar de los \textbf{recursos RDF}, estos, se asemejan a los objetos en cuanto a aspectos de la terminología del diseño orientado a objetos, por tanto, los \texttt{recursos} son los objectos y las \texttt{propiedades} son los objetos específicos y variables de una categoría.
+
+\section{Modelo de datos RDF}
+
+En cuanto al modelo de datos básico de \textbf{RDF} se basa en los siguientes tres tipos de objetos:
+
+- \textbf{Recursos}: Los recursos se tratan de los objetos que se quieren describir, es decir, se enfocan como todos los elementos que son descritos por expresiones RDF. Es decir, por ejemplo, un recurso puede se una página web completa, una parte de una página web, una colección completa de páginas, etc. Para finalizar, los recursos se deben de designar siempre por URIs más etiquetas de identificación de destino.
+
+- \textbf{Propiedades}: Las propiedades se tratan de los atributos que se quieren describir, es decir, se trata de un aspecto específico, característica, atributo o relación utilizado para describir un recurso. Por ejemplo, una propiedad puede ser el título de una página web, el autor de una página web, la fecha de creación de una página web, etc.  Cada propiedad tiene un significado en específico, define los valores permitidos, los tipos de recursos que puede describir y las relaciones con otras propiedades.
+
+- \textbf{Sentencias}: Las sentencias se tratan de una expresión que relaciona un recurso con una propiedad y un valor. Las tres partes individuales de una sentencia se denominan como \textbf{sujeto (\texttt{recurso}), predicado (\texttt{propiedad}) y objeto (\texttt{valor de la propiedad o literal})}, es decir, los denominados \textbf{tripletes}. El objeto de una sentencia puede ser otro recurso o un valor literal, a su vez un recurso puede ser especificado por un URI o una cadena simple de caracteres que se denominan como \textbf{literales}, además, dicho recurso puede ser a su vez datos primitivos definidos por \textbf{XML} (Lenguaje de marcado extensible) \cite{6}.
+
+\section{Ejemplos de sentencias RDF}
+Para poder comprender todo esto anterior, se tiene el siguiente ejemplo de sentencia RDF:
 
 \begin{verbatim}
 	http://www.example.es/index.html tiene una desarrolladora cuyo valor es Andrea López.
@@ -153,23 +293,23 @@ Teniendo en cuenta todo esto anterior, se puede observar a continuación una esq
 
 	\textbf{Predicado}: "desarrollador"
 
-	\textbf{Objeto}: Andrea López 
-\end{quote}	
+	\textbf{Objeto}: Andrea López
+\end{quote}
 
-	Tras esto, se puede observar el diagrama de nodo y arco simple que representa el ejemplo adjunto anteriormente:
+Tras esto, se puede observar el diagrama de nodo y arco simple que representa el ejemplo adjunto anteriormente:
 
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale=0.7]{../img/Diagrama-Nodo-Arco.png}
-		\caption{Diagrama de nodo y arco simple que representa el ejemplo de sentencia RDF.}
-		\label{fig:Diagrama-Nodo-Arco}
-	\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{../img/Diagrama-Nodo-Arco.png}
+	\caption{Diagrama de nodo y arco simple que representa el ejemplo de sentencia RDF.}
+	\label{fig:Diagrama-Nodo-Arco}
+\end{figure}
 
-	\fbox{\parbox{\textwidth}{
-    \textbf{Nota:} La dirección de la flecha del arco simple es muy importante. El arco siempre debe de empezar en el sujeto y apunta hacia el objeto de la sentencia RDF. De manera general se puede usar la siguiente sentencia:
+\fbox{\parbox{\textwidth}{
+		\textbf{Nota:} La dirección de la flecha del arco simple es muy importante. El arco siempre debe de empezar en el sujeto y apunta hacia el objeto de la sentencia RDF. De manera general se puede usar la siguiente sentencia:
 
 		\textbf{<Sujeto> TIENE <Predicado> <Objeto>}
-}}
+	}}
 
 A partir del ejemplo comprendido de manera previa, se pueden especificar algunas características más para dicho ejemplo como:
 
@@ -188,8 +328,8 @@ Teniendo esto en cuenta, la intención del ejemplo se basa en darle valor a la p
 \end{figure}
 
 \fbox{\parbox{\textwidth}{
-	\textbf{Nota:} Se puede leer el diagrama anterior como http://www.example.es/index.html tiene la desarrolladora cualquiera y este cualquiera tiene el nombre Andrea López y el correo electrónico andre@example.es .
-}}
+		\textbf{Nota:} Se puede leer el diagrama anterior como http://www.example.es/index.html tiene la desarrolladora cualquiera y este cualquiera tiene el nombre Andrea López y el correo electrónico andre@example.es .
+	}}
 
 Para finalizar, se puede implementar como ejemplo el uso de múltiples frases o sentencias RDF, por tanto, se tiene el siguiente ejemplo para ello:
 
@@ -208,31 +348,31 @@ Con esto en mente, se implementad el siguiente \textbf{modelo RDF}:
 	\label{fig:Modelo-RDF}
 \end{figure}
 
-	\chapter{RDF y XML}
+\chapter{RDF y XML}
 
-	\section{comparación entre RDF y XML}
+\section{comparación entre RDF y XML}
 
-	Para comenzar con esta sección,  se establecerá una comparación entre \texttt{RDF} y \texttt{XML}. RDF hace uso del lenguaje XML \textbf{(Extensible Markup Language)} como método para poder representar la información. 
+Para comenzar con esta sección,  se establecerá una comparación entre \texttt{RDF} y \texttt{XML}. RDF hace uso del lenguaje XML \textbf{(Extensible Markup Language)} como método para poder representar la información.
 
-	XML no se trata de un lenguaje de etiquetado, sino que se trata de un \textbf{Metalenguaje}, es decir, de un lenguaje que establece un conjunto de reglas que permiten a su vez la creación de lenguajes de etiquetado. Es decir, XML de manera única muestra las distintas normas que se deben de seguir sobre cómo se combinan las cadenas de caracteres, cómo se tienen de que especificar las propiedad de los elementos, etc. 
+XML no se trata de un lenguaje de etiquetado, sino que se trata de un \textbf{Metalenguaje}, es decir, de un lenguaje que establece un conjunto de reglas que permiten a su vez la creación de lenguajes de etiquetado. Es decir, XML de manera única muestra las distintas normas que se deben de seguir sobre cómo se combinan las cadenas de caracteres, cómo se tienen de que especificar las propiedad de los elementos, etc.
 
-	Es por ello que, tras entender el concepto de XML, se puede comentar que RDF hace uso de una DTD \textbf{(Document Type Definition)} de XML para desarrollar las propias etiquetas de RDF, es decir, una DTD se trata de un documento específico de trabajo dónde se establece un esquema el cuál nos permite informar sobre el contenido de cada conjunto de datos, la interpretación de estos y la forma correcta de trabajar con ellos. De esta manera, RDF al hacer uso de XML se favorece a la hora de generar nuevos conjuntos de etiquetas y el mecanismo semántico que ofrece para expresar la descripción de cualquier tipo de recurso RDF.
+Es por ello que, tras entender el concepto de XML, se puede comentar que RDF hace uso de una DTD \textbf{(Document Type Definition)} de XML para desarrollar las propias etiquetas de RDF, es decir, una DTD se trata de un documento específico de trabajo dónde se establece un esquema el cuál nos permite informar sobre el contenido de cada conjunto de datos, la interpretación de estos y la forma correcta de trabajar con ellos. De esta manera, RDF al hacer uso de XML se favorece a la hora de generar nuevos conjuntos de etiquetas y el mecanismo semántico que ofrece para expresar la descripción de cualquier tipo de recurso RDF.
 
-	Por otra parte, XML permite la generación de árboles con los distintos elementos y subelementos que forman el documento, a la vez, permite la representación del documento añadiendo o eliminando etiquetas.
+Por otra parte, XML permite la generación de árboles con los distintos elementos y subelementos que forman el documento, a la vez, permite la representación del documento añadiendo o eliminando etiquetas.
 
-	\section{Estructura del documento XML}
+\section{Estructura del documento XML}
 
-	Un documento XML debe de incluir un \textbf{prólogo} y la \textbf{instancia documento}. El \texttt{prólogo} está formado por tres secciones distintas: 
+Un documento XML debe de incluir un \textbf{prólogo} y la \textbf{instancia documento}. El \texttt{prólogo} está formado por tres secciones distintas:
 
-	- Declaración XML.
-	
-	- Declaración del tipo de documento.
+- Declaración XML.
 
-	- Referencia a una hoja de estilo externa.
+- Declaración del tipo de documento.
 
-	Por tanto, para la comprensión de las distintas partes en las que se divide el documento XML se puede observar el siguiente ejemplo para ello:
+- Referencia a una hoja de estilo externa.
 
-	\begin{verbatim}
+Por tanto, para la comprensión de las distintas partes en las que se divide el documento XML se puede observar el siguiente ejemplo para ello:
+
+\begin{verbatim}
 		<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 		<!DOCTYPE ProductoElectronico SYSTEM "producto.dtd">
 		<?xml-stylesheet href="productohtml.xsl" type="text/xsl"?>
@@ -259,54 +399,54 @@ Teniendo en cuenta el ejemplo adjunto anteriormente, se puede observar en la sig
 	\label{fig:Example-XML}
 \end{figure}
 
-	\chapter{Tim Berners-Lee}
-	
-	\section{Principios de Linked Data según Tim Berners-Lee}
+\chapter{Tim Berners-Lee}
 
-	Tras comprender un poco más sobre los aspectos básicos de \texttt{Linked Data} durante los cuatro capítulos desarrollados anteriormente, podemos hablar de \textbf{Tim Berners-Lee } \cite{11}, el padre de la web,  el cual, en la presentación sobre Linked Data en las conferencias TED 2009, explicó los principios de linked data mediante tres reglas que permiten entender el concepto de esto de una manera mucho más sencilla:
+\section{Principios de Linked Data según Tim Berners-Lee}
 
-	1. Todos los objetos conceptuales posee denominaciones que se inician con HTTP.
+Tras comprender un poco más sobre los aspectos básicos de \texttt{Linked Data} durante los cuatro capítulos desarrollados anteriormente, podemos hablar de \textbf{Tim Berners-Lee } \cite{11}, el padre de la web,  el cual, en la presentación sobre Linked Data en las conferencias TED 2009, explicó los principios de linked data mediante tres reglas que permiten entender el concepto de esto de una manera mucho más sencilla:
 
-	2. Si se toma uno de los nombres HTTP y se realiza una búsqueda, se recibirá como resultado ciertos datos en un formato estándar que resulta útil para aquel que quiera conocer sobre dicha cosa o evento.
+1. Todos los objetos conceptuales posee denominaciones que se inician con HTTP.
 
-	3. Cuando se obtiene información, no sólo se obtiene la información que se buscaba, sino que también se obtiene información sobre otros objetos relacionados con el objeto que se buscaba, es decir, sus relaciones. Y, cuando existen relaciones, a pesar de que no se trata de la información que se buscaba, esos propios datos también tendrán nombre que empiezan por HTTP, por tanto, se podrá acceder a ellos de la misma manera que se accedió a la información que se buscaba en un principio. 
+2. Si se toma uno de los nombres HTTP y se realiza una búsqueda, se recibirá como resultado ciertos datos en un formato estándar que resulta útil para aquel que quiera conocer sobre dicha cosa o evento.
 
-	Con esto, la plataforma de Datos Enlazados \textbf{(LDP, Linked Data Plataform)} define una serie de reglas para las distintas operaciones HTTP sobre los recursos web, algunos de estos están basados en \texttt{RDF}, permitiendo promover una arquitectura para leer y escribir Datos Enlazados en la web.
+3. Cuando se obtiene información, no sólo se obtiene la información que se buscaba, sino que también se obtiene información sobre otros objetos relacionados con el objeto que se buscaba, es decir, sus relaciones. Y, cuando existen relaciones, a pesar de que no se trata de la información que se buscaba, esos propios datos también tendrán nombre que empiezan por HTTP, por tanto, se podrá acceder a ellos de la misma manera que se accedió a la información que se buscaba en un principio.
 
-	\chapter{Linked Data Plataform, LDP}
-	SAMUEL
+Con esto, la plataforma de Datos Enlazados \textbf{(LDP, Linked Data Plataform)} define una serie de reglas para las distintas operaciones HTTP sobre los recursos web, algunos de estos están basados en \texttt{RDF}, permitiendo promover una arquitectura para leer y escribir Datos Enlazados en la web.
 
-	\chapter{Proyecto Linking Open Data}
-	Example....
+\chapter{Linked Data Plataform, LDP}
+SAMUEL
 
-	\chapter{Linked Open Data (LOD)}
-	Example....
+\chapter{Proyecto Linking Open Data}
+Example....
 
-	\chapter{Relación entre Linked Data y Open Data}
-	Example....
+\chapter{Linked Open Data (LOD)}
+Example....
 
-	\chapter{Linked Data y Web Semántica}
-	Example....
+\chapter{Relación entre Linked Data y Open Data}
+Example....
 
-	\chapter{Linked Data y Web 3.0}
-	Example....
+\chapter{Linked Data y Web Semántica}
+Example....
 
-	\chapter{Beneficios de Linked Data}
-	Example....
+\chapter{Linked Data y Web 3.0}
+Example....
 
-	\chapter{Problemas de Linked Data}
-	Example....
+\chapter{Beneficios de Linked Data}
+Example....
 
-	\chapter{Linked Data en bibliotecas}
-	Example....
+\chapter{Problemas de Linked Data}
+Example....
 
-	\chapter{Linked Data en la actualidad}
-	Example....
+\chapter{Linked Data en bibliotecas}
+Example....
 
-	\chapter{Conclusiones}
-	Example....
+\chapter{Linked Data en la actualidad}
+Example....
 
-	\begin{thebibliography}{99}
+\chapter{Conclusiones}
+Example....
+
+\begin{thebibliography}{99}
 	\bibitem{1} CloudFlare. 2023.  ¿Qué es el modelo OSI?.  CloudFlare.  \url{https://www.cloudflare.com/es-es/learning/ddos/glossary/open-systems-interconnection-model-osi/}
 	\bibitem{2} 12Características. 2023. HTTP (Características, concepto y funciones). 12Características. \url{https://www.12caracteristicas.com/http/}
 	\bibitem{3} REDTECA. 2023. Protocolo HTTP. REDTECA. \url{https://redteca.com/hostings/http}
@@ -319,6 +459,13 @@ Teniendo en cuenta el ejemplo adjunto anteriormente, se puede observar en la sig
 	\bibitem{10} David Fernández Medina. 2003. Estudio del modelo de representación XML/RDF. Universitat Oberta de Catalunya. \url{https://openaccess.uoc.edu/bitstream/10609/1024/1/20847tfc.pdf}
 	\bibitem{11} Wikipedia. 2023. Tim Berners-Lee. Wikipedia. \url{https://es.wikipedia.org/wiki/Tim_Berners-Lee}
 	\bibitem{12}. Gonzalo Villareal. 2015. Linked Data, recomendaciones de la W3C. SEDICIBlog. \url{https://blog.sedici.unlp.edu.ar/2015/03/13/linked-data-recomendaciones-de-la-w3c/}
-	\end{thebibliography}
+	\bibitem{13} ARITMETRICS. 2023. Qué es URI. ARITMETRICS. \url{https://www.arimetrics.com/glosario-digital/uri}
+	\bibitem{14} htmlquick. 2023. URIS y URLS. htmlquick. \url{https://www.htmlquick.com/es/reference/uri-url.html}
+	\bibitem{15} Fernando Tellado. 2016. ¿Se dice URL o URI?. WordPress. \url{https://ayudawp.com/se-dice-url-o-uri/}
+	\bibitem{16} Microsoft. 2023. Esquemas de URI. Microsoft. \url{https://learn.microsoft.com/es-es/windows/uwp/app-resources/uri-schemes}
+	\bibitem{17} MDN Web Docs. 2023. HTTP. Mozilla. \url{https://developer.mozilla.org/es/docs/Web/HTTP}
+	\bibitem{18} W3C. 2015. Linked Data Platform 1.0. W3C. \url{https://www.w3.org/TR/ldp/}
+	\bibitem{19} Tim Berners-Lee, Christian Bizer, Tom Heath. 2023. Linked Data - The Story So Far. tomheath. \url{http://tomheath.com/papers/bizer-heath-berners-lee-ijswis-linked-data.pdf}
+\end{thebibliography}
 
-	\end{document}
+\end{document}
