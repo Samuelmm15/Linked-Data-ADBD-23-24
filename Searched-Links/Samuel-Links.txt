@@ -7,7 +7,7 @@ https://www.ontotext.com/knowledgehub/fundamentals/linked-data-linked-open-data/
 https://www.sciencedirect.com/topics/computer-science/linked-data
 https://developers.exlibrisgroup.com/blog/exploring-linked-data-property-graphs/
 ESTE LINK A CONTINUACIÓN ES BASTANTE IMPORTANTE, ES UN TFM:
-https://openaccess.uoc.edu/bitstream/10609/59725/6/cbrewerTFM0117memoria.pdf
+https://openaccess.uoc.edu/bitstream/10609/59725/6/cbrewerTFM0117memxoria.pdf
 EN ESTA PÁGINA TE PONE UNA DESCRIPCIÓN DE LINKED DATA 
 https://json-ld.org/
 
