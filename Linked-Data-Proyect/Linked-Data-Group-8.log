@@ -1,21 +1,20 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10.12) (format=lualatex 2023.11.16)  17 NOV 2023 00:46
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.11.19)  19 NOV 2023 12:49
  restricted system commands enabled.
  file:line:error style messages enabled.
-**"c:/Users/JORGE/Documents/ULL/QUINTO/ADBD/Trabajo Linked Data/Linked-Data-ADB
-D-23-24/Linked-Data-Proyect/Linked-Data-Group-8.tex"
+**c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.te
+x
 
-("c:/Users/JORGE/Documents/ULL/QUINTO/ADBD/Trabajo Linked Data/Linked-Data-ADBD
--23-24/Linked-Data-Proyect/Linked-Data-Group-8.tex"
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-01>
+(c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
 Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "C:/Users/JORGE/AppData/Local/MiKTeX
+luaotfload | conf : Root cache directory is "C:/Users/samue/AppData/Local/MiKTeX
 /luatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
-olved path "C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+olved path "C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
 ontloader-2023-08-19.lua".
 Lua-only attribute luaotfload@noligature = 1
 luaotfload | init : Context OpenType loader version 3.133
@@ -24,7 +23,7 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "C:/Users/JORGE/AppData/Local/MiKTeX
+luaotfload | conf : Root cache directory is "C:/Users/samue/AppData/Local/MiKTeX
 /luatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
@@ -43,72 +42,72 @@ Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
 Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
-Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/JORGE/AppData
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/samue/AppData
 /Local/Programs/MiKTeX/tex/latex/base/report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/base/size11.clo
 File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from C:/Users/JORGE/AppData/Local/M
+luaotfload | db : Font names database loaded from C:/Users/samue/AppData/Local/M
 iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\c@part=\count184
-\c@chapter=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen139
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 107.
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
 File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 ))
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjustbox.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count193
+\XKV@depth=\count192
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjcalc.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/trimclip.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/collectbox/collectbox.s
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/collectbox/collectbox.s
 ty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box51
@@ -118,43 +117,43 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen144
 \tc@ury=\dimen145
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/tc-pgf.def
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/adjustbox/tc-pgf.def
 File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
 y
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -common.tex
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen146
 \pgfutil@tempdimb=\dimen147
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -latex.def
 \pgfutil@abb=\box52
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
 code.tex
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
 sty
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
 sty
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
@@ -170,47 +169,47 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen157
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count194
-\c@pgf@countb=\count195
-\c@pgf@countc=\count196
-\c@pgf@countd=\count197
+\c@pgf@counta=\count193
+\c@pgf@countb=\count194
+\c@pgf@countc=\count195
+\c@pgf@countd=\count196
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
-\pgf@sys@id@count=\count198
+\pgf@sys@id@count=\count197
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
 fg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-luatex.def
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s-luatex.def
 File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count199
-\pgfsyssoftpath@bigbuffer@items=\count266
+\pgfsyssoftpath@smallbuffer@items=\count198
+\pgfsyssoftpath@bigbuffer@items=\count199
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 227.
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -221,50 +220,50 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 e.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
 .tex
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
 code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen158
-\pgfmath@count=\count267
+\pgfmath@count=\count266
 \pgfmath@box=\box53
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.basic.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.trigonometric.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.random.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.comparison.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.base.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.round.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.misc.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.integerarithmetics.code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
 code.tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count268
+\c@pgfmathroundto@lastzeros=\count267
 ))
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
 tex)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen159
@@ -282,103 +281,103 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@zx=\dimen171
 \pgf@zy=\dimen172
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen173
 \pgf@path@lasty=\dimen174
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen175
 \pgf@shorten@start@additional=\dimen176
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box54
 \pgf@hbox=\box55
 \pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count269
+\pgf@picture@serial@count=\count268
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen177
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen178
 \pgf@pt@y=\dimen179
 \pgf@pt@temp=\dimen180
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 equick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen181
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen182
-\pgf@sys@shading@range@num=\count270
-\pgf@shadingcount=\count271
+\pgf@sys@shading@range@num=\count269
+\pgf@shadingcount=\count270
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box57
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 elayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 erdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box58
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 plot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen183
 \pgf@nodesepend=\dimen184
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )))
@@ -394,19 +393,19 @@ Package trimclip Info: No clipping driver 'tc-luatex.def' available.
 \adjbox@pdepth=\dimen191
 \adjbox@ptotalheight=\dimen192
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count272
-) (C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty
+\c@checkoddpage=\count271
+) (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box59
-\sift@deathcycles=\count273
+\sift@deathcycles=\count272
 \@vwid@loff=\dimen193
 \@vwid@roff=\dimen194
-)) (C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+)) (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen195
 \captionmargin=\dimen196
@@ -418,18 +417,18 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen258
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count274
-\c@continuedfloat=\count275
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count276
+\c@float@type=\count275
 \float@exts=\toks30
 \float@box=\box60
 \@float@everytoks=\toks31
 \@floatcapt=\box61
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box62
 \beforetitleunit=\skip50
@@ -441,18 +440,18 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen262
 \titlewidthfirst=\dimen263
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count277
-\Gm@cntv=\count278
-\c@Gm@tempcnt=\count279
+\Gm@cnth=\count276
+\Gm@cntv=\count277
+\c@Gm@tempcnt=\count278
 \Gm@bindingoffset=\dimen264
 \Gm@wd@mp=\dimen265
 \Gm@odd@mp=\dimen266
@@ -463,18 +462,18 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen271
 \Gm@dimlist=\toks33
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-10-27 v7.01d Hypertext links for LaTeX
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
@@ -483,125 +482,125 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks34
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+) (C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro
 .sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-10-05 v2.54 Cross-referencing by name of section
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count280
+\c@section@level=\count279
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count281
+\etb@tempcnta=\count280
 )
 \@linkdim=\dimen272
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-10-27 v7.01d Hyperref: PDFDocEncoding definition (HO)
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count284
+\Hy@SavedSpaceFactor=\count283
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-10-27 v7.01d Hyperref: PDF Unicode definition (HO)
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4168.
-Package hyperref Info: Link nesting OFF on input line 4173.
-Package hyperref Info: Hyper index ON on input line 4176.
-Package hyperref Info: Plain pages OFF on input line 4183.
-Package hyperref Info: Backreferencing OFF on input line 4188.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4435.
-\c@Hy@tempcnt=\count285
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count284
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4773.
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen273
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
 .sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
+\Fld@menulength=\count285
 \Field@Width=\dimen274
 \Fld@charsize=\dimen275
-Package hyperref Info: Hyper figures OFF on input line 6052.
-Package hyperref Info: Link nesting OFF on input line 6057.
-Package hyperref Info: Hyper index ON on input line 6060.
-Package hyperref Info: backreferencing OFF on input line 6067.
-Package hyperref Info: Link coloring OFF on input line 6072.
-Package hyperref Info: Link coloring with OCG OFF on input line 6077.
-Package hyperref Info: PDF/A mode OFF on input line 6082.
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
 )
 Package hyperref Info: Driver (autodetected): hluatex.
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2023-10-27 v7.01d Hyperref driver for luaTeX
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2023-07-08 v7.01b Hyperref driver for luaTeX
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count290
-\c@bookmark@seq@number=\count291
+\Fld@listcount=\count289
+\c@bookmark@seq@number=\count290
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -610,132 +609,99 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/parskip/parskip.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
-e.sty
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-11-01 L3 programming layer (loader) 
-
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
-tex.def
-File: l3backend-luatex.def 2023-10-23 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count292
-Inserting `l3color' in `luaotfload.parse_color'.
-\l__pdf_internal_box=\box63
-))
-Package: xparse 2023-10-10 L3 Experimental document command parser
-)
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
-Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
-x.sty
-Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
-eX
-\l__fontspec_script_int=\count293
-\l__fontspec_language_int=\count294
-\l__fontspec_strnum_int=\count295
-\l__fontspec_tmp_int=\count296
-\l__fontspec_tmpa_int=\count297
-\l__fontspec_tmpb_int=\count298
-\l__fontspec_tmpc_int=\count299
-\l__fontspec_em_int=\count300
-\l__fontspec_emdef_int=\count301
-\l__fontspec_strong_int=\count302
-\l__fontspec_strongdef_int=\count303
-\l__fontspec_tmpa_dim=\dimen276
-\l__fontspec_tmpb_dim=\dimen277
-\l__fontspec_tmpc_dim=\dimen278
- (C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
-)))
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
-\lst@mode=\count304
-\lst@gtempboxa=\box64
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count291
+\lst@gtempboxa=\box63
 \lst@token=\toks35
-\lst@length=\count305
-\lst@currlwidth=\dimen279
-\lst@column=\count306
-\lst@pos=\count307
-\lst@lostspace=\dimen280
-\lst@width=\dimen281
-\lst@newlines=\count308
-\lst@lineno=\count309
-\lst@maxwidth=\dimen282
+\lst@length=\count292
+\lst@currlwidth=\dimen276
+\lst@column=\count293
+\lst@pos=\count294
+\lst@lostspace=\dimen277
+\lst@width=\dimen278
+\lst@newlines=\count295
+\lst@lineno=\count296
+\lst@maxwidth=\dimen279
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count310
-\lst@skipnumbers=\count311
-\lst@framebox=\box65
+\c@lstnumber=\count297
+\lst@skipnumbers=\count298
+\lst@framebox=\box64
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen283
-\WF@size=\dimen284
-\c@WF@wrappedlines=\count312
-\WF@box=\box66
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen280
+\WF@size=\dimen281
+\c@WF@wrappedlines=\count299
+\WF@box=\box65
 \WF@everypar=\toks36
 Package: wrapfig 2003/01/31  v 3.6
 )
-(./Linked-Data-Group-8.aux)
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count300
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box66
+) (./Linked-Data-Group-8.aux)
 \openout1 = Linked-Data-Group-8.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+8.
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen285
+\scratchcounter=\count301
+\scratchdimen=\dimen282
 \scratchbox=\box67
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\nofMPsegments=\count302
+\nofMParguments=\count303
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen286
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen283
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks38
 )
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:/Users/JORGE/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+(C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -780,246 +746,236 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 43.
-(./Linked-Data-Group-8.out) (./Linked-Data-Group-8.out)
+Package hyperref Info: Link coloring OFF on input line 38.
 \@outlinefile=\write4
 
 \openout4 = Linked-Data-Group-8.out
+\c@lstlisting=\count307
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 47.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 47.
+[1
 
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
+{C:/Users/samue/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+No file Linked-Data-Group-8.toc.
+\tf@toc=\write5
 
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
-LaTeX Font Info:    Redeclaring math accent \check on input line 43.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 43.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 43.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 43.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 43.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 43.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 43.
-\c@lstlisting=\count319
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 52.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
- [1
-
-{C:/Users/JORGE/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (./Linked-Da
-ta-Group-8.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
+\openout5 = Linked-Data-Group-8.toc
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-])
-\tf@toc=\write5
-
-\openout5 = Linked-Data-Group-8.toc
- [2]
+]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 61.
-[3
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 56.
+[2
 
 ]
 Chapter 2.
-[4
+
+LaTeX Warning: Reference `subsec:Uniformidad-URIs' on page 3 undefined on input
+ line 66.
+
+
+LaTeX Warning: Reference `subsec:Características-HTTP' on page 3 undefined on 
+input line 68.
+
+
+LaTeX Warning: Reference `subsec:Características-RDF' on page 3 undefined on i
+nput line 70.
+
+[3
 
 ]
-<../img/Componentes-Linked-Data.png, id=269, 753.81625pt x 664.4825pt>
+
+LaTeX Warning: Citation `1' on page 4 undefined on input line 92.
+
+
+LaTeX Warning: Citation `5' on page 4 undefined on input line 106.
+
+
+LaTeX Warning: Reference `fig:Componentes-Linked-Data' on page 4 undefined on i
+nput line 114.
+
+<../img/Componentes-Linked-Data.png, id=35, 753.81625pt x 664.4825pt>
 File: ../img/Componentes-Linked-Data.png Graphic file (type png)
 <use ../img/Componentes-Linked-Data.png>
 Package luatex.def Info: ../img/Componentes-Linked-Data.png  used on input line
- 123.
+ 118.
 (luatex.def)             Requested size: 452.29324pt x 398.69257pt.
- [5] [6<../img/Componentes-Linked-Data.png>]
+[4] [5<../img/Componentes-Linked-Data.png>]
 Chapter 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 141.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 146--147
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 141--142
 [][] 
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 158--159
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 153--154
 [][] 
  []
 
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 170--171
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 165--166
 [][] 
  []
 
-<../img/uri.png, id=283, 1204.5pt x 725.71124pt>
+<../img/uri.png, id=49, 1204.5pt x 725.71124pt>
 File: ../img/uri.png Graphic file (type png)
 <use ../img/uri.png>
-Package luatex.def Info: ../img/uri.png  used on input line 177.
+Package luatex.def Info: ../img/uri.png  used on input line 172.
 (luatex.def)             Requested size: 125.12099pt x 75.37695pt.
-[7
+
+LaTeX Warning: Reference `fig:URI-URL' on page 6 undefined on input line 180.
+
+[6
 
 <../img/uri.png>]
-<../img/diferencia-entre-url-y-uri.png, id=291, 795.97375pt x 300.12125pt>
+<../img/diferencia-entre-url-y-uri.png, id=59, 795.97375pt x 300.12125pt>
 File: ../img/diferencia-entre-url-y-uri.png Graphic file (type png)
 <use ../img/diferencia-entre-url-y-uri.png>
 Package luatex.def Info: ../img/diferencia-entre-url-y-uri.png  used on input l
-ine 189.
+ine 184.
 (luatex.def)             Requested size: 477.58794pt x 180.07413pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 196--197
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
-[8<../img/diferencia-entre-url-y-uri.png>]
+[7<../img/diferencia-entre-url-y-uri.png>]
 Chapter 4.
-[9
-
-] [10]
-Chapter 5.
-<../img/Diagrama-Nodo-Arco.png, id=312, 512.91624pt x 81.30376pt>
-File: ../img/Diagrama-Nodo-Arco.png Graphic file (type png)
-<use ../img/Diagrama-Nodo-Arco.png>
-Package luatex.def Info: ../img/Diagrama-Nodo-Arco.png  used on input line 312.
-
-(luatex.def)             Requested size: 359.03893pt x 56.91223pt.
-[11
+[8
 
 ]
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 321--322
+
+LaTeX Warning: Citation `16' on page 9 undefined on input line 266.
+
+[9]
+Chapter 5.
+
+LaTeX Warning: Citation `6' on page 10 undefined on input line 286.
+
+<../img/Diagrama-Nodo-Arco.png, id=82, 512.91624pt x 81.30376pt>
+File: ../img/Diagrama-Nodo-Arco.png Graphic file (type png)
+<use ../img/Diagrama-Nodo-Arco.png>
+Package luatex.def Info: ../img/Diagrama-Nodo-Arco.png  used on input line 307.
+
+(luatex.def)             Requested size: 359.03893pt x 56.91223pt.
+[10
+
+]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 316--317
 [][] 
  []
 
-<../img/Propiedad-Estructurada.png, id=319, 422.57875pt x 362.35374pt>
+<../img/Propiedad-Estructurada.png, id=92, 422.57875pt x 362.35374pt>
 File: ../img/Propiedad-Estructurada.png Graphic file (type png)
 <use ../img/Propiedad-Estructurada.png>
 Package luatex.def Info: ../img/Propiedad-Estructurada.png  used on input line 
-334.
+329.
 (luatex.def)             Requested size: 295.8031pt x 253.64589pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 341--342
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 336--337
 [][] 
  []
 
 
-Overfull \hbox (34.14964pt too wide) in paragraph at lines 349--349
-[] \TU/lmtt/m/n/10.95 El individuo al que se refiere el identificador de emplead
-o id 15151 se llama Andrea López y[] 
+Overfull \hbox (28.4009pt too wide) in paragraph at lines 344--344
+[]\TU/lmtt/m/n/10.95 El individuo al que se refiere el identificador de empleado
+ id 15151 se llama Andrea López y[] 
  []
 
-[12<../img/Diagrama-Nodo-Arco.png><../img/Propiedad-Estructurada.png>]
-<../img/Modelo-RDF.png, id=328, 422.57875pt x 362.35374pt>
+[11<../img/Diagrama-Nodo-Arco.png><../img/Propiedad-Estructurada.png>]
+<../img/Modelo-RDF.png, id=101, 422.57875pt x 362.35374pt>
 File: ../img/Modelo-RDF.png Graphic file (type png)
 <use ../img/Modelo-RDF.png>
-Package luatex.def Info: ../img/Modelo-RDF.png  used on input line 355.
+Package luatex.def Info: ../img/Modelo-RDF.png  used on input line 350.
 (luatex.def)             Requested size: 295.8031pt x 253.64589pt.
- [13<../img/Modelo-RDF.png>]
+ [12<../img/Modelo-RDF.png>]
 Chapter 6.
-[14
+[13
 
 ]
-<../img/XML-Example-1.png, id=340, 763.85374pt x 292.09125pt>
+
+LaTeX Warning: Reference `fig:Example-XML' on page 14 undefined on input line 3
+97.
+
+<../img/XML-Example-1.png, id=115, 763.85374pt x 292.09125pt>
 File: ../img/XML-Example-1.png Graphic file (type png)
 <use ../img/XML-Example-1.png>
-Package luatex.def Info: ../img/XML-Example-1.png  used on input line 406.
+Package luatex.def Info: ../img/XML-Example-1.png  used on input line 401.
 (luatex.def)             Requested size: 534.69397pt x 204.46246pt.
 
-Overfull \hbox (34.20998pt too wide) in paragraph at lines 406--407
+Overfull \hbox (34.20998pt too wide) in paragraph at lines 401--402
  [][] 
  []
 
-[15<../img/XML-Example-1.png>]
+[14<../img/XML-Example-1.png>]
 Chapter 7.
-[16
+
+LaTeX Warning: Citation `11' on page 15 undefined on input line 410.
+
+[15
 
 ]
 Chapter 8.
-[17
+[16
 
 ]
 Chapter 9.
-<../img/W3C®_Icon.svg.png, id=359, 1204.5pt x 820.06375pt>
+<../img/W3C®_Icon.svg.png, id=133, 1204.5pt x 820.06375pt>
 File: ../img/W3C®_Icon.svg.png Graphic file (type png)
 <use ../img/W3C®_Icon.svg.png>
-Package luatex.def Info: ../img/W3C®_Icon.svg.png  used on input line 431.
+Package luatex.def Info: ../img/W3C®_Icon.svg.png  used on input line 426.
 (luatex.def)             Requested size: 125.12099pt x 85.177pt.
-<../img/What-are-Linked-Data-and-Linked-Open-Data.png, id=360, 1027.84pt x 501.
+<../img/What-are-Linked-Data-and-Linked-Open-Data.png, id=134, 1027.84pt x 501.
 875pt>
 File: ../img/What-are-Linked-Data-and-Linked-Open-Data.png Graphic file (type p
 ng)
 <use ../img/What-are-Linked-Data-and-Linked-Open-Data.png>
 Package luatex.def Info: ../img/What-are-Linked-Data-and-Linked-Open-Data.png  
-used on input line 459.
+used on input line 454.
 (luatex.def)             Requested size: 205.56436pt x 100.37321pt.
-[18
+[17
 
 <../img/W3C®_Icon.svg.png><../img/What-are-Linked-Data-and-Linked-Open-Data.png
 >]
 Chapter 10.
-<../img/lod.jpg, id=369, 592.2125pt x 308.15125pt>
+<../img/lod.jpg, id=146, 592.2125pt x 308.15125pt>
 File: ../img/lod.jpg Graphic file (type jpg)
 <use ../img/lod.jpg>
-Package luatex.def Info: ../img/lod.jpg  used on input line 477.
+Package luatex.def Info: ../img/lod.jpg  used on input line 474.
 (luatex.def)             Requested size: 236.8808pt x 123.2583pt.
-[19
+c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex:
+486: Undefined control sequence.
+l.486 \ection
+           {Transparencia y Confianza en los Datos}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[18
 
 <../img/lod.jpg>]
-<../img/transport.jpg, id=375, 730.73pt x 230.8625pt>
+<../img/transport.jpg, id=155, 730.73pt x 230.8625pt>
 File: ../img/transport.jpg Graphic file (type jpg)
 <use ../img/transport.jpg>
-Package luatex.def Info: ../img/transport.jpg  used on input line 511.
+Package luatex.def Info: ../img/transport.jpg  used on input line 514.
 (luatex.def)             Requested size: 292.28682pt x 92.34335pt.
- [20<../img/transport.jpg>]
+ [19<../img/transport.jpg>] [20]
 Chapter 11.
-<../img/websemantica.jpg, id=383, 722.7pt x 263.98625pt>
+<../img/websemantica.jpg, id=169, 722.7pt x 263.98625pt>
 File: ../img/websemantica.jpg Graphic file (type jpg)
 <use ../img/websemantica.jpg>
-Package luatex.def Info: ../img/websemantica.jpg  used on input line 547.
+Package luatex.def Info: ../img/websemantica.jpg  used on input line 551.
 (luatex.def)             Requested size: 289.07487pt x 105.59262pt.
 [21
 
@@ -1028,88 +984,101 @@ Chapter 12.
 [23
 
 ]
-<../img/od-lod1.png, id=403, 3812.2425pt x 4117.3825pt>
+<../img/od-lod1.png, id=202, 3812.2425pt x 4117.3825pt>
 File: ../img/od-lod1.png Graphic file (type png)
 <use ../img/od-lod1.png>
-Package luatex.def Info: ../img/od-lod1.png  used on input line 656.
+Package luatex.def Info: ../img/od-lod1.png  used on input line 660.
 (luatex.def)             Requested size: 343.08702pt x 370.54845pt.
  [24<../img/od-lod1.png>]
 Chapter 13.
 [25
 
-]
+] [26]
 Chapter 14.
-[26
-
-]
-Chapter 15.
 [27
 
-]
-Chapter 16.
-[28
-
-]
-Chapter 17.
+] [28]
+Chapter 15.
 [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 680--681
+Chapter 16.
+[30
+
+] [31]
+Chapter 17.
+[32
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 787--788
 []\TU/lmr/m/n/10.95 AR-IT-MET-ICS. 2023. Qué es W3C. AR-IT-MET-ICS. []$\TU/lmt
 t/m/n/10.95 https://www.arimetrics.com/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
+Underfull \hbox (badness 10000) in paragraph at lines 793--794
 []\TU/lmr/m/n/10.95 Wikipedia. 2023. Tim Berners-Lee. Wikipedia. []$\TU/lmtt/m/
 n/10.95 https://es.wikipedia.org/wiki/Tim_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--689
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
 []\TU/lmr/m/n/10.95 AR-IT-MET-RICS. 2023. Qué es URI. AR-IT-MET-RICS. []$\TU/l
 mtt/m/n/10.95 https://www.arimetrics.com/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--691
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 []\TU/lmr/m/n/10.95 Fer-nando Tel-lado. 2016. ¿Se dice URL o URI?. Word-Press. []$\TU/lmtt/m/n/10.95 https://ayudawp.com/
  []
 
-[30
+[33
 
-] [31] (./Linked-Data-Group-8.aux)
+] [34] (./Linked-Data-Group-8.aux)
  ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-01>
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `Linked-Data-Group-8.out' has not changed.
-(rerunfilecheck)             Checksum: E07D49220E519F19076A14F86621D885;8221.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Linked-Data-Group-8.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Linked-Data-Group-8.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7FB88D63CAB50F83AC8C3AB8CD5EB738;16949.
 )
 
 Here is how much of LuaTeX's memory you used:
- 24079 strings out of 476603
+ 21782 strings out of 477259
  125086,1977958 words of node,token memory allocated
  563 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 17 attribute, 54 glue_spec
 , 17 attribute_list, 2 write, 12 pdf_action nodes
-   avail lists: 1:3,2:740,3:558,4:110,5:396,6:98,7:7334,8:97,9:545,10:27,11:598
- 45312 multiletter control sequences out of 65536+600000
- 42 fonts using 3359343 bytes
- 105i,7n,115p,1313b,452s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<//?/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
-o10-regular.otf><//?/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype
-/public/lm/lmmonolt10-bold.otf><//?/c:/users/jorge/appdata/local/programs/miktex
-/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/jorge/appdata/loca
-l/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/jorg
+   avail lists: 1:2,2:615,3:558,4:88,5:390,6:49,7:8534,8:97,9:345,10:27,11:786
+ 42363 multiletter control sequences out of 65536+600000
+ 40 fonts using 3095967 bytes
+ 105i,7n,115p,1262b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
+o10-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmmonolt10-bold.otf><//?/c:/users/samue/appdata/local/programs/miktex
+/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/samue/appdata/local/p
+rograms/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/samu
 e/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?
-/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-
-regular.otf><//?/c:/users/jorge/appdata/local/programs/miktex/fonts/opentype/pub
-lic/lm/lmroman12-regular.otf><//?/c:/users/jorge/appdata/local/programs/miktex/f
+/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-
+regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/pub
+lic/lm/lmroman12-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/f
 onts/opentype/public/lm/lmroman17-regular.otf>
-Output written on Linked-Data-Group-8.pdf (32 pages, 1428553 bytes).
+Output written on Linked-Data-Group-8.pdf (35 pages, 1420530 bytes).
 
-PDF statistics: 550 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 131072)
- 376 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 402 PDF objects out of 1000 (max. 8388607)
+ 162 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

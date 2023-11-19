@@ -11,13 +11,8 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{nameref}
-\usepackage{fontspec}
 \usepackage{listings}
 \usepackage{wrapfig}
-
-% Configura la fuente
-% \setmainfont{Geist}
-
 
 % Configura los márgenes
 \geometry{
@@ -68,11 +63,11 @@ En el presente informe se tiene como objetivo explorar los fundamentos de Linked
 
 Para comenzar con el estudio de Linked Data, es necesario entender los componentes que lo conforman. En este sentido, se puede decir que Linked Data se basa en tres pilares fundamentales: URIs, HTTP y RDF. A continuación, se describirá cada uno de estos componentes y se explicará su importancia en el contexto de Linked Data.
 
-- URI (Identificadores de recursos uniformes): Una URI es una cadena de caracteres que identifica de manera única un recurso en la web. En este perspectiva, se puede decir que una URI es un identificador de recursos uniforme, ya que, permite la identificación de los distintos recursos en la web de una manera uniforme y consistente. Además, las URIs son utilizadas por los agentes de software para acceder a los recursos de esta. \ref{subsec:Uniformidad-URIs}
+- URI (Identificadores de recursos uniformes): Una URI es una cadena de caracteres que identifica de manera única un recurso en la web. En este perspectiva, se puede decir que una URI es un identificador de recursos uniforme, ya que, permite la identificación de los distintos recursos en la web de una manera uniforme y consistente. Además, las URIs son utilizadas por los agentes de software para acceder a los recursos de esta. \nameref{subsec:Uniformidad-URIs}
 
-- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta. \ref{subsec:Características-HTTP}
+- HTTP (Protocolo de Transferencia de Hipertexto): Se hace uso del protocolo HTTP para que las URIs sean desreferenciables. Esto quiere decir que, al acceder a una URI mediante el protocolo HTTP se debe de obtener información sobre el recurso al que hace referencia la URI. Además, el protocolo HTTP permite la recuperación de recursos a través de la web. En este sentido, se puede decir que el protocolo HTTP es el protocolo de la web, ya que, es el protocolo que permite la recuperación de recursos a través de esta. \nameref{subsec:Características-HTTP}
 
-- RDF (Marco de Descripción de Recursos): RDF es un modelo estándar para describir recursos y sus relaciones haciendo uso de tripletes (sujeto, predicado, objeto). \ref{subsec:Características-RDF}
+- RDF (Marco de Descripción de Recursos): RDF es un modelo estándar para describir recursos y sus relaciones haciendo uso de tripletes (sujeto, predicado, objeto). \nameref{subsec:Características-RDF}
 
 - Enlaces entre recursos: Las URIs deben de incluir enlaces (enlaces de hipertexto) a otras URIs, de esta manera se pueden establecer relaciones entre los recursos y la navegación entre estos. Esto lo que permite es la fomentación de la creación de una red interconectada de datos en la web.
 
@@ -466,12 +461,14 @@ SAMUEL
 
 		La relación entre Linked Data y Open Data es esencial para comprender cómo la combinación de estos enfoques puede potenciar la gestión y la utilidad de los conjuntos de datos. A continuación, se profundizará en algunos aspectos clave de esta relación:
 		
-		\subsection*{10.1 Interoperabilidad y Enlace de Datos}
+		\section{Interoperabilidad y Enlace de Datos}
+		
 \begin{itemize}
   \item Facilita Conexiones: Combinar Linked Data y Open Data simplifica la vinculación de diversos conjuntos de datos.
   \item Mecanismo Central: Linked Data enfoca la creación de enlaces mediante identificadores únicos (URI), estableciendo puntos de conexión consistentes.
   \item Impacto General: Favorece la interacción entre sistemas y aplicaciones, promoviendo un ecosistema de datos más amplio y conectado.
 \end{itemize}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{../img/lod.jpg}
@@ -479,23 +476,28 @@ SAMUEL
 	\label{fig:lod}
 \end{figure}
 
-\subsection*{10.2 Descubrimiento y Explotación de Datos}
+\section{Descubrimiento y Explotación de Datos}
+
 \begin{itemize}
   \item Oportunidades Innovadoras: La fusión de Linked Data y Open Data abre nuevas posibilidades para el descubrimiento y la explotación de datos.
   \item Enfoque Eficiente: Utilizando identificadores únicos y estándares semánticos, es posible descubrir relaciones y patrones complejos, especialmente valioso en contextos científicos y empresariales.
 \end{itemize}
-\subsection*{10.3 Transparencia y Confianza en los Datos}
+
+\ection{Transparencia y Confianza en los Datos}
+
 \begin{itemize}
   \item Fortalecimiento de la Transparencia: Linked Data refuerza la transparencia en Open Data al proporcionar una estructura semántica clara.
   \item Seguimiento de Relaciones: Al enlazar efectivamente conjuntos de datos abiertos, se pueden seguir relaciones entre entidades, fortaleciendo la confianza en cómo se recopilaron y relacionaron los datos.
 \end{itemize}
 
-\subsection*{10.4 Potencial para la Innovación y la Creación de Valor}
+\section{Potencial para la Innovación y la Creación de Valor}
+
 \begin{itemize}
   \item Entorno Propicio: La combinación de Linked Data y Open Data crea un entorno favorable para la innovación y la creación de valor.
   \item Oportunidades Generadas: Permite a desarrolladores e investigadores acceder y vincular datos eficientemente, generando oportunidades para la inteligencia artificial, la ciencia de datos y la toma de decisiones basada en datos.
 \end{itemize}
-\subsubsection{Veamos un Ejemplo Práctico: Sistema de Transporte Urbano}
+
+\subsection{Veamos un Ejemplo Práctico: Sistema de Transporte Urbano}
 
 En una ciudad, los datos sobre horarios de autobuses, rutas, paradas y disponibilidad en tiempo real se publican como Open Data, siguiendo los principios de Linked Data. Veamos cómo este enfoque beneficia tanto a los ciudadanos como a los desarrolladores:
 
@@ -506,6 +508,7 @@ En una ciudad, los datos sobre horarios de autobuses, rutas, paradas y disponibi
     
     \item \textbf{Identificación de Patrones de Uso:} Gracias a la interconexión de datos, las autoridades de transporte pueden analizar patrones de uso, identificar áreas con alta demanda y ajustar eficientemente los servicios para satisfacer las necesidades de la comunidad.
 \end{itemize}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.4]{../img/transport.jpg}
@@ -516,7 +519,8 @@ En una ciudad, los datos sobre horarios de autobuses, rutas, paradas y disponibi
 Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el contexto del transporte urbano no solo facilita el acceso a la información, sino que también fomenta la innovación y mejora la eficiencia en la gestión de servicios públicos.
 
 
-\subsection*{10.5 Desafíos y Consideraciones Éticas}
+\section{Desafíos y Consideraciones Éticas}
+
 \begin{itemize}
   \item Consideraciones Críticas: A pesar de los beneficios, la convergencia de datos plantea desafíos, especialmente en términos de privacidad y seguridad.
   \item Acciones Necesarias: Implementar medidas de seguridad robustas y abordar preocupaciones éticas es esencial para garantizar la apertura e interconexión de datos sin comprometer la privacidad ni generar riesgos indebidos.
@@ -571,7 +575,7 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 
 	A menudo, se asocia la \textbf{Web Semántica} con la transición hacia la \textbf{Web 3.0}, que representa la próxima fase de la evolución de la web. La \textbf{Web 3.0} se caracteriza por una web más inteligente, descentralizada y orientada a la semántica, donde las máquinas pueden comprender y utilizar el contenido de manera más eficiente.
 
-	\section*{Integración de Linked Data y Web Semántica}
+	\section{Integración de Linked Data y Web Semántica}
 	
 	La relación entre Linked Data y Web Semántica es de complementariedad. Linked Data establece la estructura y la interconexión, mientras que la Web Semántica agrega capas de significado para una comprensión más profunda. Puntos clave de integración incluyen:
 	
@@ -588,7 +592,7 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 	Aunque la integración de Linked Data y Web Semántica ofrece beneficios sustanciales, también presenta desafíos. La estandarización de ontologías, la privacidad y la seguridad son consideraciones críticas que deben abordarse para garantizar un desarrollo ético y sostenible.
 	
 	\chapter{Transformación de open data a linked open data}
-		  \subsection*{Paso 1: Identificación de Datasets}
+		  \section{Paso 1: Identificación de Datasets}
 
 		  \begin{itemize}
 			\item \textbf{Definir Contenido:} Determine el contenido específico que desea publicar como Linked Open Data (LOD).
@@ -601,13 +605,13 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 			
 			\item \textbf{Diseño de URIs:} Diseñe URIs para la identificación y localización de los datos. Asegúrese de que estas URIs sean únicas y descriptivas.
 		\end{itemize}	
-		\subsection*{Paso 2: Limpieza de Datos}
+		\section{Paso 2: Limpieza de Datos}
 			\begin{itemize}
 			\item \textbf{Realizar Correcciones:} Limpieza de errores ortográficos, vacíos, formatos y caracteres innecesarios.
 			
 			\item \textbf{Calidad de Datos y Metadatos:} Asegúrese de que los datos cumplan con los estándares de calidad y metadatos.
 			\end{itemize}		
-		\subsection*{Paso 3: Modelado de Datos}
+		\section{Paso 3: Modelado de Datos}
 		\begin{itemize}
 			\item \textbf{Determinar un Modelo de Datos RDF:} Identifique el modelo de datos RDF que mejor se adapte a sus necesidades, como RDF, RDF Schema, OWL, entre otros.
 			
@@ -618,7 +622,7 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 			\item \textbf{Reutilizar Vocabularios Existentes:} Aproveche vocabularios existentes y defina aquellos que se utilizarán, como Dublin Core, FOAF, Schema.org, entre otros.
 		\end{itemize}
 		
-		\subsection*{Paso 4: Enriquecimiento de Datos}
+		\section{Paso 4: Enriquecimiento de Datos}
 		\begin{itemize}
 			\item \textbf{Conocimiento Acumulado:} de datos, vocabularios y ontologías.
 			
@@ -628,13 +632,13 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 			
 			\item \textbf{Modelo RDF Final:}
 		\end{itemize}
-		\subsection*{Paso 5: Vinculación de Datos}
+		\section{Paso 5: Vinculación de Datos}
 		\begin{itemize}
 			\item \textbf{Seleccionar el Método más Apropiado:} Para convertir los datos enlazados a RDF.
 			
 			\item \textbf{Convertir los Datos:}
 		\end{itemize}
-		\subsection*{Paso 6: Publicación de Datos}
+		\section{Paso 6: Publicación de Datos}
 		\begin{itemize}
 			\item \textbf{Seleccionar Posibilidades:} Para publicar LOD.
 			
@@ -644,7 +648,7 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 			
 			\item \textbf{Publicar LOD:}
 		\end{itemize}
-		\subsection*{Paso 7: Validación de Datos}
+		\section{Paso 7: Validación de Datos}
 		\begin{itemize}
 			\item \textbf{Conjuntos de Datos Candidatos:} Para la próxima nube de LOD (y conectados).
 			
@@ -659,68 +663,68 @@ Este ejemplo ilustra cómo la combinación de Linked Data y Open Data en el cont
 		\end{figure}
 \chapter{Beneficios de Linked Data}
 Cabe resaltar la importancia y el impacto positivo que Linked Data puede tener en diversos aspectos de la gestión y el aprovechamiento de la información.
-\subsection*{Interconexión de datos}
+\section{Interconexión de datos}
 
 		Linked Data permite la interconexión de datos de diversas fuentes, lo que facilita la integración y el enriquecimiento de la información. Los datos enlazados pueden referenciar y conectarse entre sí, creando una red de información coherente.
-\subsection*{Descubrimiento de Datos}
+\section{Descubrimiento de Datos}
 
 		Facilita el descubrimiento de datos relevantes a través de la navegación semántica. Al tener enlaces entre conjuntos de datos, los usuarios pueden descubrir información relacionada de manera más eficiente.
-\subsection*{Reutilización de Datos}
+\section{Reutilización de Datos}
 
 		Los datos enlazados promueven la reutilización al proporcionar un marco estructurado para la integración de datos. Esto significa que los conjuntos de datos pueden ser utilizados y combinados de manera efectiva para crear nuevas aplicaciones y servicios.
-\subsection*{Mejora de la Búsqueda y Recuperación de Información}
+\section{Mejora de la Búsqueda y Recuperación de Información}
 
 		La estructura semántica de Linked Data mejora la precisión y relevancia de los resultados de búsqueda. Los motores de búsqueda pueden entender mejor la relación entre los datos, lo que conduce a una recuperación de información más precisa.
-\subsection*{Integración con la Web Semántica}
+\section{Integración con la Web Semántica}
 
 		Linked Data es un componente clave de la Web Semántica, que busca dar significado a la información. Esto facilita la creación de aplicaciones más inteligentes y sistemas que pueden comprender el contexto y la semántica de los datos.
-\subsection*{Apertura y Accesibilidad}
+\section{Apertura y Accesibilidad}
 
 		Al seguir los principios de Linked Data, se promueve la apertura y la accesibilidad de la información. Los datos enlazados están disponibles en la web de manera transparente, lo que facilita su acceso y uso por parte de diferentes usuarios y aplicaciones.
-\subsection*{Consistencia y Calidad de los Datos}
+\section{Consistencia y Calidad de los Datos}
 
 		La estructura de Linked Data fomenta la consistencia y la calidad de los datos. Al utilizar estándares como RDF, se establecen reglas y formatos que contribuyen a la coherencia de la información.
-\subsection*{Facilita la Colaboración}
+\section{Facilita la Colaboración}
 
 		Linked Data facilita la colaboración entre diferentes organizaciones y comunidades al proporcionar un marco común para la representación y el intercambio de datos. Esto puede conducir a la creación de ecosistemas de datos más amplios y colaborativos.
-\subsection*{Soporte para la Toma de Decisiones}
+\section{Soporte para la Toma de Decisiones}
 
 		La interconexión y la riqueza semántica de Linked Data pueden mejorar el proceso de toma de decisiones al proporcionar información más completa y contextual.
-\subsection*{Evolución hacia la Web 3.0}
+\section{Evolución hacia la Web 3.0}
 
 		Linked Data es considerado como una piedra angular en la evolución hacia la Web 3.0, donde los datos se vuelven aún más inteligentes y contextualizados, permitiendo experiencias más personalizadas y eficientes.
 
 \chapter{Problemas de Linked Data}
 Al abordar los siguientes problemas, las organizaciones y la comunidad en general pueden avanzar hacia una implementación más efectiva y sostenible de Linked Data. Es importante tener en cuenta estos desafíos para desarrollar estrategias que permitan superarlos y maximizar los beneficios de esta tecnología.
 
-\subsection*{Escasez de Datos Enlazados}
+\section{Escasez de Datos Enlazados}
 
 		Aunque la adopción de Linked Data está en aumento, todavía hay áreas en las que la disponibilidad de datos enlazados es limitada. La escasez de conjuntos de datos enlazados puede obstaculizar la realización plena de los beneficios de esta tecnología.
-\subsection*{Calidad Variante de los Datos}
+\section{Calidad Variante de los Datos}
 
 		La calidad de los datos enlazados puede variar considerablemente. Diferentes fuentes pueden tener niveles variables de precisión y consistencia, lo que dificulta la creación de enlaces confiables y la realización de inferencias precisas.
-\subsection*{Complejidad en la Creación de Enlaces}
+\section{Complejidad en la Creación de Enlaces}
 
 		El proceso de crear enlaces entre conjuntos de datos puede ser complejo y requerir un esfuerzo considerable. La identificación y asignación de URIs de manera consistente y la creación de relaciones significativas entre recursos pueden ser desafiantes.
-\subsection*{Falta de Estándares Uniformes}
+\section{Falta de Estándares Uniformes}
 
 		Aunque existen estándares como RDF, la falta de una implementación uniforme y la diversidad en la representación de datos pueden dificultar la interoperabilidad entre diferentes conjuntos de datos enlazados.
-\subsection*{Privacidad y Seguridad}
+\section{Privacidad y Seguridad}
 
 		La interconexión de datos puede plantear preocupaciones de privacidad y seguridad, especialmente cuando se enlazan conjuntos de datos sensibles. La necesidad de equilibrar la apertura de datos con la protección de la privacidad es un desafío constante.
-\subsection*{Costos Asociados}
+\section{Costos Asociados}
 
 		La implementación de Linked Data puede requerir inversiones significativas en términos de recursos y tecnología. La creación de enlaces, la publicación de datos y el mantenimiento continuo pueden generar costos que algunas organizaciones pueden encontrar prohibitivos.
-\subsection*{Adopción y Concienciación}
+\section{Adopción y Concienciación}
 
 		A pesar de los beneficios, la adopción completa de Linked Data puede verse obstaculizada por la falta de conciencia y comprensión. Muchas organizaciones y usuarios aún no están familiarizados con los conceptos de Linked Data, lo que dificulta su implementación generalizada.
-\subsection*{Desafíos de Escala}
+\section{Desafíos de Escala}
 
 		A medida que los conjuntos de datos enlazados crecen en escala, gestionar la complejidad y el rendimiento puede convertirse en un desafío. La optimización de consultas y la gestión eficiente de grandes volúmenes de datos enlazados pueden requerir soluciones avanzadas.
-\subsection*{Actualización y Mantenimiento Continuo}
+\section{Actualización y Mantenimiento Continuo}
 
 		La naturaleza dinámica de la web y de los conjuntos de datos puede hacer que el mantenimiento continuo de los enlaces y la actualización de la información sea un desafío constante.
-\subsection*{Comprensión Semántica Limitada}
+\section{Comprensión Semántica Limitada}
 
 		A pesar de la semántica enriquecida proporcionada por Linked Data, la comprensión semántica completa aún puede ser un desafío. La interpretación precisa de la información y la inferencia semántica pueden requerir un mayor desarrollo de herramientas y algoritmos.
 
@@ -731,16 +735,16 @@ La aplicación de Linked Data en el ámbito empresarial ha ganado terreno como u
 
 Se han observado éxitos concretos en el uso de Linked Data, como los fragmentos enriquecidos de Google, la adopción de RDFa Lite y el vocabulario GoodRelations por parte de schema.org, el aumento en la utilización de RDFa en las páginas web de empresas como Best Buy y Sears, Data.gov y el constante crecimiento de la nube de Linked Open Data (LOD). Sin embargo, estos logros suelen pasar desapercibidos porque Linked Data opera "bajo el capó", es decir, en gran medida detrás de escena.
 
-\subsection*{La adopción de RDFa Lite por parte de schema.org}
+\section{La adopción de RDFa Lite por parte de schema.org}
 
 		Cuando los motores de búsqueda generan resultados, aprovechan los datos semánticos. La colaboración reciente entre Bing, Google y Yahoo! al formar schema.org refleja el respaldo a la utilización de datos estructurados en la web. schema.org ofrece esquemas para diversos dominios comunes (http://schema.org/docs/gs.html). Su reciente integración de RDFa Lite refuerza aún más la capacidad de compartir datos mediante formatos compatibles. Esta decisión demuestra el reconocimiento de la importancia de RDFa.
-\subsection*{Fragmentos Enriquecidos de Google}
+\section{Fragmentos Enriquecidos de Google}
 
 		Google Rich Snippets es compatible con RDFa, así como con microformatos (http://microformats.org/) y Microdatos. Esta tecnología de fragmentos enriquecidos respalda diversos vocabularios, como GoodRelations y RDF Data Vocabulary (http://rdf.data-vocabulary.org). Numerosas empresas están adoptando páginas habilitadas para fragmentos enriquecidos y experimentan beneficios, como una mayor tasa de clics en los resultados de búsqueda. Aquellos sitios web que no aprovechan los fragmentos enriquecidos podrían sufrir pérdidas significativas en las ventas al descender en sus posiciones dentro de los rankings de búsqueda.
 
         Google utiliza principios de Linked Data para mejorar la calidad de sus resultados de búsqueda. La implementación de estructuras enlazadas ayuda a comprender las relaciones entre los diferentes tipos de información en la web, lo que contribuye a ofrecer resultados más precisos y contextualizados.
 
-\subsection*{Best Buy}
+\section{Best Buy}
 
 		La cadena de tiendas Best Buy utiliza Linked Data para mejorar la experiencia del cliente en línea. Enlaza datos sobre productos, opiniones de clientes y recomendaciones, proporcionando a los usuarios una experiencia de compra más personalizada y contextualizada.
 
@@ -753,16 +757,16 @@ En resumen, la tecnología semántica tiene un alcance muy amplio. Ahora, ¿qué
 
 El futuro de Linked Data ya está siendo planificado y es evidente que se extenderá mucho más allá de la comunidad de investigación. Aquí hay algunos ejemplos concretos.
 
-\subsection*{Extensiones de Fragmentos Enriquecidos de Google}
+\section{Extensiones de Fragmentos Enriquecidos de Google}
 
 		En la actualidad, los fragmentos enriquecidos se generan según el contenido de una única página web. Sin embargo, las futuras ampliaciones de fragmentos enriquecidos podrían integrar datos provenientes de diversas fuentes. Esta expansión seguiría el modelo de Content-Centric Networking y haría uso de triples RDF. Los fragmentos enriquecidos resultantes podrían incluir videos integrados, listas de personas que asisten a un evento y lugares donde se proyecta una película. Experimentos previos han demostrado que Content-Centric Networking resulta útil cuando varias partes están interesadas en el mismo contenido. Este enfoque podría impulsarse mediante la propagación de triples a gran escala para páginas web populares.
-\subsection*{Legislación de responsabilidad y transparencia digital}
+\section{Legislación de responsabilidad y transparencia digital}
 
 		Una posible aplicación futura de los recursos de Datos Abiertos del Gobierno podría contribuir a la optimización del gasto federal en los Estados Unidos. La propuesta de la Ley de Responsabilidad y Transparencia Digital fue evaluada por el Congreso estadounidense. Aunque lamentablemente no fue aprobada, generó interés y conciencia sobre el tema. Es probable que legislaciones similares sean consideradas en un futuro cercano. 
   
         Esta ley habría establecido una junta independiente para rastrear todos los gastos federales. Los impulsores del proyecto de ley de 2012, el Representante Darrell Issa de California y el Senador Mark Warner de Virginia, sostienen que una medida como esta podría prevenir el desperdicio y abuso del dinero federal. Teradata, con sede en Dayton, Ohio, y una de las partes del sector privado interesadas, propuso la consolidación de conjuntos de datos de diversas agencias federales. Estos datos consolidados podrían someterse a análisis y revisión, con la expectativa de revelar posibles abusos en el sistema federal de adquisiciones. Al momento de redactar esto, el sistema de Teradata se está utilizando en varios estados, incluyendo Arizona, Iowa, Maryland, Michigan, Missouri, Nueva Jersey, Ohio, Oklahoma y Texas, con una recuperación total de 1.8 mil millones.
 
-\subsection*{Impacto de la publicidad}
+section{Impacto de la publicidad}
 
 		En el año 2011, Facebook generó 3.1 mil millones en ingresos publicitarios. Se estima que para 2012, los ingresos por publicidad de Facebook habrán crecido a 5.06 mil millones. Linked Data desempeña un papel significativo en respaldar este logro. La información RDF recopilada a partir de los clics en el botón "Me gusta" puede analizarse para que los anunciantes lleguen de manera más efectiva a su audiencia objetivo. De manera similar, al agregar y analizar los datos sobre tus hábitos de navegación, los anunciantes pueden identificar posibles clientes. Se espera ver más actividad y avances en esta área.
 
@@ -802,3 +806,4 @@ Por último, Linked Data no solo representa un avance tecnológico, sino un camb
 \end{thebibliography}
 
 \end{document}
+
