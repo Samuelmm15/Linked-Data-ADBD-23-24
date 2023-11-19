@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.11.19)  19 NOV 2023 12:49
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.11.19)  19 NOV 2023 17:04
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.te
@@ -747,6 +747,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 38.
+(./Linked-Data-Group-8.out) (./Linked-Data-Group-8.out)
 \@outlinefile=\write4
 
 \openout4 = Linked-Data-Group-8.out
@@ -757,60 +758,44 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 47.
-[1
+ [1
 
-{C:/Users/samue/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-No file Linked-Data-Group-8.toc.
-\tf@toc=\write5
-
-\openout5 = Linked-Data-Group-8.toc
+{C:/Users/samue/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (./Linked-Da
+ta-Group-8.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
-]
+] [2])
+\tf@toc=\write5
+
+\openout5 = Linked-Data-Group-8.toc
+ [3]
 Chapter 1.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 56.
-[2
+[4
 
 ]
 Chapter 2.
-
-LaTeX Warning: Reference `subsec:Uniformidad-URIs' on page 3 undefined on input
- line 66.
-
-
-LaTeX Warning: Reference `subsec:Características-HTTP' on page 3 undefined on 
-input line 68.
-
-
-LaTeX Warning: Reference `subsec:Características-RDF' on page 3 undefined on i
-nput line 70.
-
-[3
+[5
 
 ]
-
-LaTeX Warning: Citation `1' on page 4 undefined on input line 92.
-
-
-LaTeX Warning: Citation `5' on page 4 undefined on input line 106.
-
-
-LaTeX Warning: Reference `fig:Componentes-Linked-Data' on page 4 undefined on i
-nput line 114.
-
-<../img/Componentes-Linked-Data.png, id=35, 753.81625pt x 664.4825pt>
+<../img/Componentes-Linked-Data.png, id=459, 753.81625pt x 664.4825pt>
 File: ../img/Componentes-Linked-Data.png Graphic file (type png)
 <use ../img/Componentes-Linked-Data.png>
 Package luatex.def Info: ../img/Componentes-Linked-Data.png  used on input line
  118.
-(luatex.def)             Requested size: 452.29324pt x 398.69257pt.
-[4] [5<../img/Componentes-Linked-Data.png>]
+(luatex.def)             Requested size: 603.05383pt x 531.58672pt.
+
+Overfull \hbox (102.56984pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+[6] [7<../img/Componentes-Linked-Data.png>]
 Chapter 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 141.
 
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 141--142
 [][] 
@@ -826,18 +811,15 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 165--166
 [][] 
  []
 
-<../img/uri.png, id=49, 1204.5pt x 725.71124pt>
+<../img/uri.png, id=473, 1204.5pt x 725.71124pt>
 File: ../img/uri.png Graphic file (type png)
 <use ../img/uri.png>
 Package luatex.def Info: ../img/uri.png  used on input line 172.
 (luatex.def)             Requested size: 125.12099pt x 75.37695pt.
-
-LaTeX Warning: Reference `fig:URI-URL' on page 6 undefined on input line 180.
-
-[6
+[8
 
 <../img/uri.png>]
-<../img/diferencia-entre-url-y-uri.png, id=59, 795.97375pt x 300.12125pt>
+<../img/diferencia-entre-url-y-uri.png, id=481, 795.97375pt x 300.12125pt>
 File: ../img/diferencia-entre-url-y-uri.png Graphic file (type png)
 <use ../img/diferencia-entre-url-y-uri.png>
 Package luatex.def Info: ../img/diferencia-entre-url-y-uri.png  used on input l
@@ -848,33 +830,26 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
-[7<../img/diferencia-entre-url-y-uri.png>]
+[9<../img/diferencia-entre-url-y-uri.png>]
 Chapter 4.
-[8
+[10
 
-]
-
-LaTeX Warning: Citation `16' on page 9 undefined on input line 266.
-
-[9]
+] [11]
 Chapter 5.
-
-LaTeX Warning: Citation `6' on page 10 undefined on input line 286.
-
-<../img/Diagrama-Nodo-Arco.png, id=82, 512.91624pt x 81.30376pt>
+<../img/Diagrama-Nodo-Arco.png, id=502, 512.91624pt x 81.30376pt>
 File: ../img/Diagrama-Nodo-Arco.png Graphic file (type png)
 <use ../img/Diagrama-Nodo-Arco.png>
 Package luatex.def Info: ../img/Diagrama-Nodo-Arco.png  used on input line 307.
 
 (luatex.def)             Requested size: 359.03893pt x 56.91223pt.
-[10
+[12
 
 ]
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 316--317
 [][] 
  []
 
-<../img/Propiedad-Estructurada.png, id=92, 422.57875pt x 362.35374pt>
+<../img/Propiedad-Estructurada.png, id=509, 422.57875pt x 362.35374pt>
 File: ../img/Propiedad-Estructurada.png Graphic file (type png)
 <use ../img/Propiedad-Estructurada.png>
 Package luatex.def Info: ../img/Propiedad-Estructurada.png  used on input line 
@@ -891,22 +866,18 @@ Overfull \hbox (28.4009pt too wide) in paragraph at lines 344--344
  id 15151 se llama Andrea López y[] 
  []
 
-[11<../img/Diagrama-Nodo-Arco.png><../img/Propiedad-Estructurada.png>]
-<../img/Modelo-RDF.png, id=101, 422.57875pt x 362.35374pt>
+[13<../img/Diagrama-Nodo-Arco.png><../img/Propiedad-Estructurada.png>]
+<../img/Modelo-RDF.png, id=518, 422.57875pt x 362.35374pt>
 File: ../img/Modelo-RDF.png Graphic file (type png)
 <use ../img/Modelo-RDF.png>
 Package luatex.def Info: ../img/Modelo-RDF.png  used on input line 350.
 (luatex.def)             Requested size: 295.8031pt x 253.64589pt.
- [12<../img/Modelo-RDF.png>]
+ [14<../img/Modelo-RDF.png>]
 Chapter 6.
-[13
+[15
 
 ]
-
-LaTeX Warning: Reference `fig:Example-XML' on page 14 undefined on input line 3
-97.
-
-<../img/XML-Example-1.png, id=115, 763.85374pt x 292.09125pt>
+<../img/XML-Example-1.png, id=530, 763.85374pt x 292.09125pt>
 File: ../img/XML-Example-1.png Graphic file (type png)
 <use ../img/XML-Example-1.png>
 Package luatex.def Info: ../img/XML-Example-1.png  used on input line 401.
@@ -916,45 +887,38 @@ Overfull \hbox (34.20998pt too wide) in paragraph at lines 401--402
  [][] 
  []
 
-[14<../img/XML-Example-1.png>]
+[16<../img/XML-Example-1.png>]
 Chapter 7.
-
-LaTeX Warning: Citation `11' on page 15 undefined on input line 410.
-
-[15
+[17
 
 ]
 Chapter 8.
-[16
-
-]
-Chapter 9.
-<../img/W3C®_Icon.svg.png, id=133, 1204.5pt x 820.06375pt>
+<../img/W3C®_Icon.svg.png, id=547, 1204.5pt x 820.06375pt>
 File: ../img/W3C®_Icon.svg.png Graphic file (type png)
 <use ../img/W3C®_Icon.svg.png>
-Package luatex.def Info: ../img/W3C®_Icon.svg.png  used on input line 426.
+Package luatex.def Info: ../img/W3C®_Icon.svg.png  used on input line 423.
 (luatex.def)             Requested size: 125.12099pt x 85.177pt.
-<../img/What-are-Linked-Data-and-Linked-Open-Data.png, id=134, 1027.84pt x 501.
+<../img/What-are-Linked-Data-and-Linked-Open-Data.png, id=548, 1027.84pt x 501.
 875pt>
 File: ../img/What-are-Linked-Data-and-Linked-Open-Data.png Graphic file (type p
 ng)
 <use ../img/What-are-Linked-Data-and-Linked-Open-Data.png>
 Package luatex.def Info: ../img/What-are-Linked-Data-and-Linked-Open-Data.png  
-used on input line 454.
+used on input line 451.
 (luatex.def)             Requested size: 205.56436pt x 100.37321pt.
-[17
+[18
 
 <../img/W3C®_Icon.svg.png><../img/What-are-Linked-Data-and-Linked-Open-Data.png
 >]
-Chapter 10.
-<../img/lod.jpg, id=146, 592.2125pt x 308.15125pt>
+Chapter 9.
+<../img/lod.jpg, id=557, 592.2125pt x 308.15125pt>
 File: ../img/lod.jpg Graphic file (type jpg)
 <use ../img/lod.jpg>
-Package luatex.def Info: ../img/lod.jpg  used on input line 474.
+Package luatex.def Info: ../img/lod.jpg  used on input line 471.
 (luatex.def)             Requested size: 236.8808pt x 123.2583pt.
 c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex:
-486: Undefined control sequence.
-l.486 \ection
+483: Undefined control sequence.
+l.483 \ection
            {Transparencia y Confianza en los Datos}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -962,123 +926,142 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18
+[19
 
 <../img/lod.jpg>]
-<../img/transport.jpg, id=155, 730.73pt x 230.8625pt>
+<../img/transport.jpg, id=563, 730.73pt x 230.8625pt>
 File: ../img/transport.jpg Graphic file (type jpg)
 <use ../img/transport.jpg>
-Package luatex.def Info: ../img/transport.jpg  used on input line 514.
+Package luatex.def Info: ../img/transport.jpg  used on input line 511.
 (luatex.def)             Requested size: 292.28682pt x 92.34335pt.
- [19<../img/transport.jpg>] [20]
-Chapter 11.
-<../img/websemantica.jpg, id=169, 722.7pt x 263.98625pt>
+ [20<../img/transport.jpg>] [21]
+Chapter 10.
+<../img/websemantica.jpg, id=574, 722.7pt x 263.98625pt>
 File: ../img/websemantica.jpg Graphic file (type jpg)
 <use ../img/websemantica.jpg>
-Package luatex.def Info: ../img/websemantica.jpg  used on input line 551.
+Package luatex.def Info: ../img/websemantica.jpg  used on input line 548.
 (luatex.def)             Requested size: 289.07487pt x 105.59262pt.
-[21
+[22
 
-<../img/websemantica.jpg>] [22]
-Chapter 12.
-[23
+<../img/websemantica.jpg>] [23]
+Chapter 11.
+[24
 
 ]
-<../img/od-lod1.png, id=202, 3812.2425pt x 4117.3825pt>
+<../img/od-lod1.png, id=594, 3812.2425pt x 4117.3825pt>
 File: ../img/od-lod1.png Graphic file (type png)
 <use ../img/od-lod1.png>
-Package luatex.def Info: ../img/od-lod1.png  used on input line 660.
+Package luatex.def Info: ../img/od-lod1.png  used on input line 657.
 (luatex.def)             Requested size: 343.08702pt x 370.54845pt.
- [24<../img/od-lod1.png>]
+ [25<../img/od-lod1.png>]
+Chapter 12.
+[26
+
+] [27]
 Chapter 13.
-[25
+[28
 
-] [26]
+] [29]
 Chapter 14.
-[27
-
-] [28]
-Chapter 15.
-[29
-
-]
-Chapter 16.
 [30
 
-] [31]
-Chapter 17.
-[32
+]
+Chapter 15.
+[31
+
+] [32]
+Chapter 16.
+[33
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
-[]\TU/lmr/m/n/10.95 AR-IT-MET-ICS. 2023. Qué es W3C. AR-IT-MET-ICS. []$\TU/lmt
-t/m/n/10.95 https://www.arimetrics.com/
+Underfull \hbox (badness 4479) in paragraph at lines 783--784
+[]\TU/lmr/m/n/10.95 Open-Data Eu-skadi. (2023). RDF (Re-source De-scrip-tion Fra
+me-work). Open-Data. []$\TU/lmtt/m/n/10.95 https:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 793--794
-[]\TU/lmr/m/n/10.95 Wikipedia. 2023. Tim Berners-Lee. Wikipedia. []$\TU/lmtt/m/
-n/10.95 https://es.wikipedia.org/wiki/Tim_
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
+\TU/lmtt/m/n/10.95 //opendata.euskadi.eus/contenidos/informacion/opendata_rdf_eu
+skadi/es_info/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--796
-[]\TU/lmr/m/n/10.95 AR-IT-MET-RICS. 2023. Qué es URI. AR-IT-MET-RICS. []$\TU/l
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
+[]\TU/lmr/m/n/10.95 AR-IT-MET-ICS. (2023). Qué es W3C. AR-IT-MET-ICS. []$\TU/l
 mtt/m/n/10.95 https://www.arimetrics.com/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
-[]\TU/lmr/m/n/10.95 Fer-nando Tel-lado. 2016. ¿Se dice URL o URI?. Word-Press. []$\TU/lmtt/m/n/10.95 https://ayudawp.com/
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
+[]\TU/lmr/m/n/10.95 Wikipedia. (2023). Tim Berners-Lee. Wikipedia. []$\TU/lmtt/
+m/n/10.95 https://es.wikipedia.org/wiki/Tim_
  []
 
-[33
 
-] [34] (./Linked-Data-Group-8.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 792--793
+[]\TU/lmr/m/n/10.95 AR-IT-MET-RICS. (2023). Qué es URI. AR-IT-MET-RICS. []$\TU
+/lmtt/m/n/10.95 https://www.arimetrics.com/
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 793--794
+[]\TU/lmr/m/n/10.95 htm-lquick. (2023). URIS y URLS. htm-lquick. []$\TU/lmtt/m/
+n/10.95 https://www.htmlquick.com/es/reference/
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 794--795
+[]\TU/lmr/m/n/10.95 Fer-nando Tel-lado. (2016). ¿Se dice URL o URI?. Word-Press
+. []$\TU/lmtt/m/n/10.95 https://ayudawp.com/
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 799--800
+[]\TU/lmr/m/n/10.95 UM. (2018). Guia de trans-for-ma-ción de datos abierto a da
+tos abier-tos en-laza-dos. UM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+[]$\TU/lmtt/m/n/10.95 https://herramientas.datos.gov.co/sites/default/files/2020
+-[]11/Guia%20Linked%20Open%
+ []
+
+[34
+
+] [35] (./Linked-Data-Group-8.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Linked-Data-Group-8.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Linked-Data-Group-8.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7FB88D63CAB50F83AC8C3AB8CD5EB738;16949.
+Package rerunfilecheck Info: File `Linked-Data-Group-8.out' has not changed.
+(rerunfilecheck)             Checksum: D7F371C40F8E707904B189770C782D19;16755.
 )
 
 Here is how much of LuaTeX's memory you used:
- 21782 strings out of 477259
+ 21882 strings out of 477259
  125086,1977958 words of node,token memory allocated
  563 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 17 attribute, 54 glue_spec
 , 17 attribute_list, 2 write, 12 pdf_action nodes
-   avail lists: 1:2,2:615,3:558,4:88,5:390,6:49,7:8534,8:97,9:345,10:27,11:786
- 42363 multiletter control sequences out of 65536+600000
+   avail lists: 1:3,2:968,3:561,4:166,5:555,6:125,7:8534,8:97,9:725,10:27,11:786
+
+ 42448 multiletter control sequences out of 65536+600000
  40 fonts using 3095967 bytes
  105i,7n,115p,1262b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 o10-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype
 /public/lm/lmmonolt10-bold.otf><//?/c:/users/samue/appdata/local/programs/miktex
-/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/samue/appdata/local/p
-rograms/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/samu
+/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/samue/appdata/loca
+l/programs/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/users/samu
 e/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><//?
 /c:/users/samue/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmono12-
 regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/fonts/opentype/pub
 lic/lm/lmroman12-regular.otf><//?/c:/users/samue/appdata/local/programs/miktex/f
 onts/opentype/public/lm/lmroman17-regular.otf>
-Output written on Linked-Data-Group-8.pdf (35 pages, 1420530 bytes).
+Output written on Linked-Data-Group-8.pdf (36 pages, 1475161 bytes).
 
-PDF statistics: 402 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 757 PDF objects out of 1000 (max. 8388607)
  162 named destinations out of 1000 (max. 131072)
- 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 672 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1700398154 "c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex" "Linked-Data-Group-8.pdf" "Linked-Data-Group-8" 1700398159 2
+["lualatex"] 1700413481 "c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex" "Linked-Data-Group-8.pdf" "Linked-Data-Group-8" 1700413486 2
   "../img/Componentes-Linked-Data.png" 1700393786 213864 d43b561828f4f93c04ffd90077156065 ""
   "../img/Diagrama-Nodo-Arco.png" 1700393786 8817 0bb6fd1c7debec5a56a26d52523c5457 ""
   "../img/Modelo-RDF.png" 1700393786 24008 181f978a92073cf2b054c713c38cb11e ""
@@ -215,11 +215,11 @@
   "C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload-tounicode.lua" 1693506766 7528 c5b104d6d5d1d86f13d45294df8ac77f ""
   "C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload-unicode.lua" 1693506766 7917 2ac5fb697191fbe7f30f4ab4e5f7037b ""
   "C:/Users/samue/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/luaotfload.lua" 1693506766 13565 c514d92e6ff6be7b2f35d8e0eb56185c ""
-  "Linked-Data-Group-8.aux" 1700398158 17014 37027c4b32941ec66e921f8a8d81adc0 "lualatex"
-  "Linked-Data-Group-8.out" 1700398158 16949 7fb88d63cab50f83ac8c3ab8cd5eb738 "lualatex"
-  "Linked-Data-Group-8.tex" 1700398001 62956 a0196f7bd9367d6b116ec2241806e769 ""
-  "Linked-Data-Group-8.toc" 1700398158 7498 a647eb627d2e467092525def8f149633 "lualatex"
-  "c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex" 1700398001 62956 a0196f7bd9367d6b116ec2241806e769 ""
+  "Linked-Data-Group-8.aux" 1700413485 16819 ab5787233f7f041bc86c550f9667ee44 "lualatex"
+  "Linked-Data-Group-8.out" 1700413485 16755 d7f371c40f8e707904b189770c782d19 "lualatex"
+  "Linked-Data-Group-8.tex" 1700413477 63085 8be38fbc1b6a6f40e0297dba078d0c15 ""
+  "Linked-Data-Group-8.toc" 1700413485 7410 7a3daa04abf9a761cb60a4ed62975172 "lualatex"
+  "c:/Users/samue/Desktop/Linked-Data/Linked-Data-Proyect/Linked-Data-Group-8.tex" 1700413477 63085 8be38fbc1b6a6f40e0297dba078d0c15 ""
   (generated)
   "Linked-Data-Group-8.aux"
   "Linked-Data-Group-8.log"
